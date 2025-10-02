@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOVA • Categories</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
+</head>
+<body>
+  <main class="container">
+    <section class="card center">
+      <h1>Loading Categories…</h1>
+      <p class="muted small">If this screen remains, refresh the page.</p>
+    </section>
+  </main>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+  <script>
+    // Force SPA into categories view, then render.
+    window.location.hash = '#categories';
+    if (typeof render === 'function') { render(); }
+    window.addEventListener('hashchange', function(){ if (typeof render === 'function') render(); });
+  </script>
+</body>
+</html>
