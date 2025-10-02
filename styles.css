@@ -36,3 +36,5 @@ input{border-radius:8px;border:1px solid #334155;background:#0b1229;color:#e5e7e
 .btn.secondary{background:var(--accent2);color:#111111}
 
 .btn:focus,.badge:focus{outline:3px solid #ffffff;outline-offset:2px}
+
+.badge.disabled{opacity:.4; filter:grayscale(40%);}

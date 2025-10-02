@@ -29,6 +29,7 @@ function render(){
   else if(h==='traits') renderTraits()
   else if(h==='results') renderResults()
   else if(h==='plans') renderPlans()
+  else if(h==='reflection') renderReflection()
 }
 
 let state = {
@@ -41,16 +42,17 @@ let state = {
   prompts: []         // quick-insert prompts chosen
 }
 
+
 function renderCategories(){
   document.body.innerHTML = `
   <main class="container">
     <section class="card">
       <div class="header"><div>
-        <div class="kicker">Step 1</div>
-        <h2>Choose 1–2 Career Categories</h2>
+        <div class="kicker">Step 2</div>
+        <h2>Choose up to 2 Career Categories</h2>
       </div>
-      <button class="btn ghost right" id="backHome" class="btn secondary">← Home</button></div>
-      <p class="muted small">These define which traits you'll see next.</p>
+      <button class="btn secondary" id="backHome">← Home</button></div>
+      <p class="muted small">Pick <strong>one</strong> or <strong>two</strong> categories that best describe where you want to focus. Two is the max so your results stay focused.</p>
       <div class="grid cols-3" id="catGrid"></div>
       <div class="divider"></div>
       <div style="display:flex;gap:10px;justify-content:space-between;align-items:center;flex-wrap:wrap">
@@ -62,31 +64,59 @@ function renderCategories(){
       </div>
     </section>
   </main>`
-  document.getElementById('backHome').onclick = ()=>location.reload()
-  const grid = document.getElementById('catGrid')
+  $('#backHome').onclick = ()=>location.reload()
+  const grid = $('#catGrid')
   const list = Object.keys(window.NOVA_DATA)
+
+  function updateSelCats(){ $('#selCats').textContent = state.chosenCategories.join(' • ') || '—' }
+  function updateDisabled(){
+    const atMax = state.chosenCategories.length >= 2
+    document.querySelectorAll('#catGrid .badge').forEach(b=>{
+      const name = b.getAttribute('data-name')
+      const selected = state.chosenCategories.includes(name)
+      if(!selected && atMax){
+        b.classList.add('disabled')
+        b.setAttribute('aria-disabled','true')
+        b.style.pointerEvents = 'none'
+      } else {
+        b.classList.remove('disabled')
+        b.removeAttribute('aria-disabled')
+        b.style.pointerEvents = 'auto'
+      }
+    })
+  }
+
   list.forEach(name=>{
     const b = el('div','badge',name)
+    b.setAttribute('data-name', name)
+    if(state.chosenCategories.includes(name)) b.classList.add('selected')
     b.onclick = ()=>{
       const i = state.chosenCategories.indexOf(name)
-      if(i>=0){ state.chosenCategories.splice(i,1); b.classList.remove('selected') }
-      else {
-        if(state.chosenCategories.length===2) return alert('Choose at most two categories.')
+      if(i>=0){
+        state.chosenCategories.splice(i,1); b.classList.remove('selected')
+      } else {
+        if(state.chosenCategories.length===2){
+          alert('You can choose at most two categories.')
+          return
+        }
         state.chosenCategories.push(name); b.classList.add('selected')
       }
-      updateSelCats()
+      updateSelCats(); updateDisabled()
     }
     grid.appendChild(b)
   })
-  function updateSelCats(){ document.getElementById('selCats').textContent = state.chosenCategories.join(' • ') || '—' }
-  updateSelCats()
-  document.getElementById('clearCats').onclick = ()=>{ state.chosenCategories=[]; renderCategories() }
-  document.getElementById('toTraits').onclick = ()=>{
+
+  updateSelCats(); updateDisabled()
+  $('#clearCats').onclick = ()=>{ state.chosenCategories=[]; renderCategories() }
+  $('#toTraits').onclick = ()=>{
     if(state.chosenCategories.length===0) return alert('Pick at least one category.')
-    state.activeCategory = state.chosenCategories[0] // start with first; user can switch
+    state.activeCategory = state.chosenCategories[0]
     go('traits')
   }
 }
+
+
+
 
 function renderTraits(){
   const data = window.NOVA_DATA
@@ -94,60 +124,78 @@ function renderTraits(){
   <main class="container">
     <section class="card">
       <div class="header">
-        <div><div class="kicker">Step 2</div><h2>Select Traits (10 max)</h2></div>
-        <div>
-          <label class="small muted">Category</label>
-          <select id="catSelect"></select>
-        </div>
+        <div><div class="kicker">Step 3</div><h2>Pick Your Traits (5 or more)</h2></div>
+        <div id="catToggles" class="list"></div>
       </div>
-      <div class="list" id="traitsList"></div>
+
+      <h3 style="margin:6px 0">Recommended Traits from Your Categories</h3>
+      <p class="muted small">We combined traits from your selected categories so you can choose in one place.</p>
+      <div class="list" id="traitsCombined"></div>
+
       <div class="divider"></div>
       <div class="header" style="gap:8px;flex-wrap:wrap">
-        <div><button id="clearTraits" class="btn subtle">Clear selections</button></div>
+        <div class="small muted">Selected: <strong id="selCount">0</strong></div>
         <div style="display:flex;gap:8px">
+          <button id="clearTraits" class="btn subtle">Clear selections</button>
           <button id="toCats" class="btn secondary">← Back</button>
-          <button id="toResults" class="btn secondary">See My Results</button>
+          <button id="toResults" class="btn primary">See My Results</button>
         </div>
       </div>
     </section>
   </main>`
 
-  // populate category select
-  const sel = document.getElementById('catSelect')
+  // visible category toggles
+  const ct = document.getElementById('catToggles')
   state.chosenCategories.forEach(c=>{
-    const opt = document.createElement('option')
-    opt.value = c; opt.textContent = c
-    sel.appendChild(opt)
+    const b = el('div','badge',c)
+    if(state.activeCategory===c) b.classList.add('selected')
+    b.onclick = ()=>{
+      state.activeCategory = c
+      // Just a visual toggle; combined list stays the same
+      document.querySelectorAll('#catToggles .badge').forEach(x=>x.classList.remove('selected'))
+      b.classList.add('selected')
+    }
+    ct.appendChild(b)
   })
-  sel.value = state.activeCategory
-  sel.onchange = ()=>{ state.activeCategory = sel.value; state.chosenTraits=[]; drawTraits() }
+  if(!state.activeCategory && state.chosenCategories.length){ state.activeCategory = state.chosenCategories[0] }
 
-  function drawTraits(){
-    const traits = data[state.activeCategory].traits
-    const box = document.getElementById('traitsList'); box.innerHTML=''
-    traits.forEach(t=>{
-      const b = el('div','badge',t)
-      if(state.chosenTraits.includes(t)) b.classList.add('selected')
-      b.onclick = ()=>{
-        const i = state.chosenTraits.indexOf(t)
-        if(i>=0){ state.chosenTraits.splice(i,1); b.classList.remove('selected') }
-        else {
-          if(state.chosenTraits.length>=10) return alert('Max 10 traits.')
-          state.chosenTraits.push(t); b.classList.add('selected')
-        }
-      }
-      box.appendChild(b)
-    })
+  // Build union of traits from selected categories (1 or 2)
+  const combinedSet = new Set()
+  state.chosenCategories.forEach(c=>{
+    (data[c]?.traits||[]).forEach(t=> combinedSet.add(t))
+  })
+  // Edge case: if no chosenCategories (shouldn't happen), fall back to activeCategory
+  if(!state.chosenCategories.length && state.activeCategory){
+    (data[state.activeCategory]?.traits||[]).forEach(t=> combinedSet.add(t))
   }
-  drawTraits()
 
+  // Render combined trait chips
+  const box = document.getElementById('traitsCombined')
+  Array.from(combinedSet).forEach(t=>{
+    const b = el('div','badge',t)
+    if(state.chosenTraits.includes(t)) b.classList.add('selected')
+    b.onclick = ()=>{
+      const i = state.chosenTraits.indexOf(t)
+      if(i>=0){ state.chosenTraits.splice(i,1); b.classList.remove('selected') }
+      else {
+        if(state.chosenTraits.length>=12) return alert('Let’s keep it focused. Choose up to 12 traits.')
+        state.chosenTraits.push(t); b.classList.add('selected')
+      }
+      document.getElementById('selCount').textContent = state.chosenTraits.length
+    }
+    box.appendChild(b)
+  })
+
+  document.getElementById('selCount').textContent = state.chosenTraits.length
   document.getElementById('clearTraits').onclick = ()=>{ state.chosenTraits=[]; renderTraits() }
   document.getElementById('toCats').onclick = ()=>go('categories')
   document.getElementById('toResults').onclick = ()=>{
-    if(state.chosenTraits.length<3) return alert('Pick at least 3 traits for better matches.')
+    if(state.chosenTraits.length<5) return alert('Please select at least 5 traits for accurate results.')
     go('results')
   }
 }
+
+
 
 function scoreRoles(cat, traits){
   const rules = window.NOVA_DATA[cat].roles
@@ -176,21 +224,21 @@ function downloadSnapshot(obj){
   URL.revokeObjectURL(url)
 }
 
+
 function renderResults(){
   const cat = state.activeCategory
-  const list = scoreRoles(cat, state.chosenTraits)
+  const list = scoreRolesPercent(cat, state.chosenTraits)
 
   document.body.innerHTML = `
   <main class="container">
     <section class="card">
       <div class="header" style="gap:8px;flex-wrap:wrap">
         <div>
-          <div class="kicker">Step 3</div>
+          <div class="kicker">Step 4</div>
           <h2>${cat} • Top Matches</h2>
         </div>
         <div style="display:flex;gap:8px">
           <button id="toTraits" class="btn secondary">← Edit Traits</button>
-          <button id="saveDraft" class="btn subtle">Save Draft</button>
         </div>
       </div>
 
@@ -200,60 +248,30 @@ function renderResults(){
 
       <div class="divider"></div>
 
-      <div class="header"><div><span class="kicker">Reflection</span><h3>Capture Your Direction</h3></div></div>
-
-      <div class="list" id="statusChips"></div>
-      <p class="muted small">Pick one that best describes you today.</p>
-
-      <div class="divider"></div>
-
-      <div class="grid cols-3" id="goalsChecklist"></div>
-      <p class="muted small">Choose 1–3 goals for the next two weeks.</p>
-
-      <div class="divider"></div>
-
-      <label class="small muted">Quick prompts</label>
-      <div class="list" id="promptButtons"></div>
-
-      <textarea id="reflect" placeholder="Write your thoughts here… (min 80 characters recommended)"></textarea>
-      <div class="small muted" id="charCount">0 characters</div>
-
-      <div class="divider"></div>
-
-      <div class="header" style="gap:8px;flex-wrap:wrap">
-        <div style="display:flex;gap:8px">
-          <button id="download" class="btn subtle">Download Snapshot (.json)</button>
-        </div>
-        <div style="display:flex;gap:8px">
-          <button id="toPlans" class="btn primary">Continue → Plans</button>
-        </div>
+      <div class="header">
+        <span></span>
+        <button id="toReflection" class="btn primary">Continue → Reflection</button>
       </div>
     </section>
   </main>`
 
-  // roles list
   const box = document.getElementById('roles')
-  list.forEach(r=>{
+  if(list.length===0){
     const d = el('div','role')
-    d.innerHTML = `<strong>${r.title}</strong><div class="muted small">Match score: ${r.score}</div>`
+    d.innerHTML = `<strong>No strong matches yet.</strong><div class="muted small">Try adding a few more traits or adjusting selections.</div>`
     box.appendChild(d)
-  })
+  } else {
+    list.forEach(r=>{
+      const d = el('div','role')
+      d.innerHTML = `<strong>${r.title}</strong><div class="muted small">Match: ${r.percent}%</div>`
+      box.appendChild(d)
+    })
+  }
 
-  // status chips
-  const statuses = [
-    ['starting','I’m starting my career'],
-    ['switching','I’m switching careers'],
-    ['returning','I’m returning to work']
-  ]
-  const sc = document.getElementById('statusChips')
-  statuses.forEach(([val,label])=>{
-    const chip = el('div','badge',label)
-    if(state.status===val) chip.classList.add('selected')
-    chip.onclick = ()=>{
-      state.status = state.status===val ? '' : val
-      document.querySelectorAll('#statusChips .badge').forEach(b=>b.classList.remove('selected'))
-      if(state.status) chip.classList.add('selected')
-    }
+  document.getElementById('toTraits').onclick = ()=>go('traits')
+  document.getElementById('toReflection').onclick = ()=>go('reflection')
+}
+
     sc.appendChild(chip)
   })
 
@@ -410,3 +428,117 @@ function renderPlans(){
 
 
 init()
+
+
+function renderReflection(){
+  document.body.innerHTML = `
+  <main class="container">
+    <section class="card">
+      <div class="header">
+        <div><div class="kicker">Step 5</div><h2>Reflection</h2></div>
+        <button id="toResults" class="btn secondary">← Back to Results</button>
+      </div>
+
+      <div class="list" id="statusChips"></div>
+      <p class="muted small">Pick one that best describes you today.</p>
+
+      <div class="divider"></div>
+
+      <div class="grid cols-3" id="goalsChecklist"></div>
+      <p class="muted small">Choose 1–3 goals for the next two weeks.</p>
+
+      <div class="divider"></div>
+
+      <label class="small muted">Quick prompts</label>
+      <div class="list" id="promptButtons"></div>
+
+      <textarea id="reflect" placeholder="Write your thoughts here… (min 80 characters recommended)"></textarea>
+      <div class="small muted" id="charCount">0 characters</div>
+
+      <div class="divider"></div>
+
+      <div class="header" style="gap:8px;flex-wrap:wrap">
+        <div style="display:flex;gap:8px">
+          <button id="saveDraft" class="btn subtle">Save Draft</button>
+        </div>
+        <div style="display:flex;gap:8px">
+          <button id="toPlans" class="btn primary">Continue → Plans</button>
+        </div>
+      </div>
+    </section>
+  </main>`
+
+  const statuses = [
+    ['starting','I’m starting my career'],
+    ['switching','I’m switching careers'],
+    ['returning','I’m returning to work']
+  ]
+  const sc = document.getElementById('statusChips')
+  statuses.forEach(([val,label])=>{
+    const chip = el('div','badge',label)
+    if(state.status===val) chip.classList.add('selected')
+    chip.onclick = ()=>{
+      state.status = state.status===val ? '' : val
+      document.querySelectorAll('#statusChips .badge').forEach(b=>b.classList.remove('selected'))
+      if(state.status) chip.classList.add('selected')
+    }
+    sc.appendChild(chip)
+  })
+
+  const goals = [
+    'Update / create resume',
+    'Draft two cover letters',
+    'Apply to 3 targeted roles',
+    'Schedule an informational chat',
+    'Enroll in one skills course',
+    'Shadow or volunteer once'
+  ]
+  const gc = document.getElementById('goalsChecklist')
+  goals.forEach(g=>{
+    const wrap = el('label','small')
+    wrap.style.display='flex'; wrap.style.gap='8px'; wrap.style.alignItems='center'
+    const cb = document.createElement('input'); cb.type='checkbox'
+    cb.checked = state.goals.includes(g)
+    cb.onchange = ()=>{
+      if(cb.checked){ if(!state.goals.includes(g)) state.goals.push(g) }
+      else { state.goals = state.goals.filter(x=>x!==g) }
+    }
+    const span = el('span','',g)
+    wrap.appendChild(cb); wrap.appendChild(span)
+    gc.appendChild(wrap)
+  })
+
+  const prompts = [
+    'The roles that excite me most are…',
+    'My top 3 strengths I want to use are…',
+    'One obstacle I’ll tackle first is…',
+    'I will measure progress by…'
+  ]
+  const pb = document.getElementById('promptButtons')
+  prompts.forEach(p=>{
+    const b = el('div','badge',p)
+    b.onclick = ()=>{
+      const ta = document.getElementById('reflect')
+      ta.value = (ta.value ? ta.value+'\n' : '') + p + ' '
+      updateChar()
+    }
+    pb.appendChild(b)
+  })
+
+  const ta = document.getElementById('reflect')
+  ta.value = state.reflection || ''
+  ta.addEventListener('input', updateChar)
+  function updateChar(){
+    document.getElementById('charCount').textContent = `${ta.value.length} characters`
+  }
+  updateChar()
+
+  document.getElementById('saveDraft').onclick = ()=>{
+    state.reflection = ta.value.trim()
+    localStorage.setItem('NOVA_DRAFT', JSON.stringify(state))
+    alert('Saved locally.')
+  }
+  document.getElementById('toResults').onclick = ()=>go('results')
+  document.getElementById('toPlans').onclick = ()=>{ state.reflection = ta.value.trim(); go('plans') }
+}
+

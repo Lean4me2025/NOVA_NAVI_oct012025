@@ -343,7 +343,7 @@ window.NOVA_DATA = {
 
 
 window.NOVA_FACTS = [
-  "Fact: 89% of people feel more confident pursuing roles after clarifying their strengths.",
-  "Nova starts with categories → then traits → then real job matches.",
-  "Your reflection helps tailor the plan you choose next."
+  "Purpose first: when you clarify purpose, confidence rises (e.g., 89% feel more ready to move).",
+  "Flow: choose categories → pick traits → see roles that express your purpose.",
+  "Reflection matters: capture what resonates so your next steps align with calling."
 ];
