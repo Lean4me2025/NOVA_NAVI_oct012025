@@ -343,7 +343,7 @@ window.NOVA_DATA = {
 
 
 window.NOVA_FACTS = [
-  "Purpose first: when you clarify purpose, confidence rises (e.g., 89% feel more ready to move).",
+  "89% of people do not know their purpose.",
   "Flow: choose categories → pick traits → see roles that express your purpose.",
   "Reflection matters: capture what resonates so your next steps align with calling."
 ];
