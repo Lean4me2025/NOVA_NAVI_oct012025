@@ -1,0 +1,363 @@
+[
+  {
+    "title": "Data Analyst",
+    "soc": "15-2051",
+    "traits": [
+      "t01",
+      "t12",
+      "t35",
+      "t07",
+      "t22",
+      "t33",
+      "t09",
+      "t40"
+    ],
+    "salary": {
+      "low": 55000,
+      "high": 105000
+    },
+    "summary": "Analyze datasets to generate insights, reports, and recommendations for business decisions."
+  },
+  {
+    "title": "Software Developer",
+    "soc": "15-1252",
+    "traits": [
+      "t18",
+      "t17",
+      "t09",
+      "t01",
+      "t23",
+      "t33",
+      "t22",
+      "t40"
+    ],
+    "salary": {
+      "low": 70000,
+      "high": 140000
+    },
+    "summary": "Design, build, and maintain software applications and systems."
+  },
+  {
+    "title": "UX Designer",
+    "soc": "15-1255",
+    "traits": [
+      "t23",
+      "t33",
+      "t02",
+      "t07",
+      "t35",
+      "t37",
+      "t09",
+      "t24"
+    ],
+    "salary": {
+      "low": 70000,
+      "high": 130000
+    },
+    "summary": "Create intuitive user experiences through research, prototyping, and design."
+  },
+  {
+    "title": "Project Manager",
+    "soc": "11-1021",
+    "traits": [
+      "t39",
+      "t08",
+      "t06",
+      "t07",
+      "t22",
+      "t29",
+      "t24",
+      "t50"
+    ],
+    "salary": {
+      "low": 75000,
+      "high": 140000
+    },
+    "summary": "Plan, organize, and oversee projects to ensure on-time and on-budget delivery."
+  },
+  {
+    "title": "Cybersecurity Analyst",
+    "soc": "15-1212",
+    "traits": [
+      "t41",
+      "t21",
+      "t22",
+      "t01",
+      "t12",
+      "t09",
+      "t17",
+      "t47"
+    ],
+    "salary": {
+      "low": 80000,
+      "high": 150000
+    },
+    "summary": "Protect systems and data by monitoring threats, analyzing risks, and implementing controls."
+  },
+  {
+    "title": "Mechanical Engineer",
+    "soc": "17-2141",
+    "traits": [
+      "t43",
+      "t14",
+      "t01",
+      "t22",
+      "t21",
+      "t09",
+      "t12",
+      "t40"
+    ],
+    "salary": {
+      "low": 75000,
+      "high": 130000
+    },
+    "summary": "Design and improve mechanical devices, systems, and processes."
+  },
+  {
+    "title": "Industrial Engineer",
+    "soc": "17-2112",
+    "traits": [
+      "t39",
+      "t22",
+      "t01",
+      "t40",
+      "t14",
+      "t43",
+      "t09",
+      "t24"
+    ],
+    "salary": {
+      "low": 75000,
+      "high": 130000
+    },
+    "summary": "Optimize systems for quality, throughput, cost, and safety using data and lean methods."
+  },
+  {
+    "title": "Financial Analyst",
+    "soc": "13-2051",
+    "traits": [
+      "t44",
+      "t01",
+      "t12",
+      "t24",
+      "t07",
+      "t22",
+      "t09",
+      "t33"
+    ],
+    "salary": {
+      "low": 65000,
+      "high": 125000
+    },
+    "summary": "Evaluate financial data and trends to guide investment and business decisions."
+  },
+  {
+    "title": "Registered Nurse",
+    "soc": "29-1141",
+    "traits": [
+      "t16",
+      "t03",
+      "t47",
+      "t29",
+      "t27",
+      "t07",
+      "t30",
+      "t22"
+    ],
+    "salary": {
+      "low": 65000,
+      "high": 120000
+    },
+    "summary": "Provide patient care, education, and coordination across clinical settings."
+  },
+  {
+    "title": "Teacher / Instructor",
+    "soc": "25-3097",
+    "traits": [
+      "t19",
+      "t07",
+      "t37",
+      "t03",
+      "t28",
+      "t24",
+      "t49",
+      "t16"
+    ],
+    "salary": {
+      "low": 45000,
+      "high": 90000
+    },
+    "summary": "Facilitate learning, develop curricula, and support student growth."
+  },
+  {
+    "title": "Marketing Manager",
+    "soc": "11-2021",
+    "traits": [
+      "t25",
+      "t02",
+      "t07",
+      "t24",
+      "t33",
+      "t37",
+      "t38",
+      "t45"
+    ],
+    "salary": {
+      "low": 80000,
+      "high": 160000
+    },
+    "summary": "Develop marketing strategy and campaigns to grow demand and brand."
+  },
+  {
+    "title": "Sales Representative (B2B)",
+    "soc": "41-3091",
+    "traits": [
+      "t25",
+      "t07",
+      "t38",
+      "t33",
+      "t31",
+      "t29",
+      "t37",
+      "t44"
+    ],
+    "salary": {
+      "low": 50000,
+      "high": 120000
+    },
+    "summary": "Engage clients, understand needs, and present solutions to close business."
+  },
+  {
+    "title": "Graphic Designer",
+    "soc": "27-1024",
+    "traits": [
+      "t02",
+      "t15",
+      "t35",
+      "t07",
+      "t33",
+      "t23",
+      "t37",
+      "t09"
+    ],
+    "salary": {
+      "low": 50000,
+      "high": 95000
+    },
+    "summary": "Create visual concepts and assets for media, marketing, and product."
+  },
+  {
+    "title": "Operations Manager",
+    "soc": "11-1021",
+    "traits": [
+      "t39",
+      "t08",
+      "t06",
+      "t22",
+      "t24",
+      "t29",
+      "t33",
+      "t50"
+    ],
+    "salary": {
+      "low": 85000,
+      "high": 160000
+    },
+    "summary": "Oversee operations, people, and processes to achieve business goals."
+  },
+  {
+    "title": "Security Guard Supervisor",
+    "soc": "33-1091",
+    "traits": [
+      "t47",
+      "t41",
+      "t22",
+      "t06",
+      "t39",
+      "t29",
+      "t28",
+      "t21"
+    ],
+    "salary": {
+      "low": 45000,
+      "high": 80000
+    },
+    "summary": "Lead guard teams, manage posts, and ensure safety/compliance."
+  },
+  {
+    "title": "Network Administrator",
+    "soc": "15-1244",
+    "traits": [
+      "t17",
+      "t21",
+      "t22",
+      "t01",
+      "t12",
+      "t09",
+      "t41",
+      "t33"
+    ],
+    "salary": {
+      "low": 65000,
+      "high": 120000
+    },
+    "summary": "Maintain network infrastructure, performance, and security."
+  },
+  {
+    "title": "Database Administrator",
+    "soc": "15-1242",
+    "traits": [
+      "t12",
+      "t17",
+      "t01",
+      "t22",
+      "t09",
+      "t23",
+      "t33",
+      "t40"
+    ],
+    "salary": {
+      "low": 75000,
+      "high": 140000
+    },
+    "summary": "Manage databases for availability, integrity, and performance."
+  },
+  {
+    "title": "Business Analyst",
+    "soc": "13-1111",
+    "traits": [
+      "t01",
+      "t24",
+      "t39",
+      "t07",
+      "t22",
+      "t12",
+      "t33",
+      "t09"
+    ],
+    "salary": {
+      "low": 65000,
+      "high": 120000
+    },
+    "summary": "Bridge stakeholders, requirements, and solutions to improve outcomes."
+  },
+  {
+    "title": "Human Resources Specialist",
+    "soc": "13-1071",
+    "traits": [
+      "t03",
+      "t07",
+      "t28",
+      "t22",
+      "t24",
+      "t49",
+      "t33",
+      "t29"
+    ],
+    "salary": {
+      "low": 55000,
+      "high": 105000
+    },
+    "summary": "Recruit, onboard, and support employees; manage policies and development."
+  }
+]

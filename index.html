@@ -4,8 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>NOVA — Purpose Discovery</title>
-  <link rel="preconnect" href="https://payhip.com" />
-  <script type="text/javascript" src="https://payhip.com/payhip.js" defer></script>
+  <script type="text/javascript" src="https://payhip.com/payhip.js"></script>
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
@@ -14,28 +13,28 @@
     <nav class="nav">
       <button class="link" data-nav="welcome">Welcome</button>
       <button class="link" data-nav="traits">Traits</button>
-      <button class="link" data-nav="results">Results</button>
+      <button class="link" data-nav="discover">Discover</button>
+      <button class="link" data-nav="reflect">Reflect</button>
       <button class="link" data-nav="plans">Plans</button>
     </nav>
   </header>
 
   <main>
-    <!-- Welcome Section -->
+    <!-- WELCOME -->
     <section id="welcome" class="panel active">
-      <h1>Welcome to NOVA</h1>
-      <p class="lede">I'll help you figure out your purpose — clearly, calmly, and practically.</p>
+      <h1>~89% of people don’t operate in their purpose.</h1>
+      <p class="lede">We’re going to change that — clearly, calmly, and practically.</p>
       <ul class="bullets">
-        <li>Pick traits that feel true right now (no overthinking).</li>
-        <li>See your snapshot and reflect for a minute.</li>
-        <li>Choose a plan when you're ready to go deeper.</li>
+        <li>Select the traits that describe you today.</li>
+        <li>Explore suggested categories and jobs.</li>
+        <li>Reflect on “Where are you now?” and choose your next step.</li>
       </ul>
-      <p class="stat">Fact: <strong>~89% of people</strong> don’t operate in their purpose. Let’s flip that.</p>
       <div class="cta-row">
-        <button id="startBtn" class="primary">Start My Discovery</button>
+        <button class="primary" data-nav="traits">Start My Discovery</button>
       </div>
     </section>
 
-    <!-- Traits Section -->
+    <!-- TRAITS -->
     <section id="traits" class="panel">
       <h2>Select Your Traits</h2>
       <p class="hint">Tap to select up to <strong>12</strong>. You can change your mind.</p>
@@ -43,51 +42,73 @@
       <div class="bar">
         <button id="clearBtn" class="ghost">Clear selections</button>
         <div class="count"><span id="selCount">0</span>/12 selected</div>
-        <button id="seeResultsBtn" class="primary">See My Results</button>
+        <button id="toDiscoverBtn" class="primary">See Categories & Jobs</button>
       </div>
     </section>
 
-    <!-- Results Section -->
-    <section id="results" class="panel">
-      <h2>Your Snapshot</h2>
-      <div id="snapshot" class="snapshot"></div>
-
-      <h3>Quick Reflection</h3>
-      <textarea id="reflection" rows="6" placeholder="What do these say about how you like to work, create, and serve?"></textarea>
+    <!-- DISCOVER (Categories + Jobs) -->
+    <section id="discover" class="panel">
+      <h2>Suggested Categories & Jobs</h2>
+      <p class="hint">Based on your selections. You can still go back and adjust.</p>
+      <div id="catList" class="cat-list"></div>
       <div class="bar">
         <button class="ghost" data-nav="traits">Back to Traits</button>
+        <button class="primary" data-nav="reflect">Continue to Reflection</button>
+      </div>
+    </section>
+
+    <!-- REFLECT (AFTER INFO) -->
+    <section id="reflect" class="panel">
+      <h2>Where are you now?</h2>
+      <div class="stage">
+        <label class="stage-option">
+          <input type="radio" name="stage" value="start">
+          <span>I'm just starting my career</span>
+        </label>
+        <label class="stage-option">
+          <input type="radio" name="stage" value="swap">
+          <span>I'm swapping careers</span>
+        </label>
+        <label class="stage-option">
+          <input type="radio" name="stage" value="advance">
+          <span>I'm advancing in my current path</span>
+        </label>
+      </div>
+      <h3>Quick Reflection</h3>
+      <textarea id="reflection" rows="6" placeholder="What stood out? What do you want to do next?"></textarea>
+      <div class="bar">
+        <button class="ghost" data-nav="discover">Back to Categories</button>
         <button class="primary" data-nav="plans">Go to Plans</button>
       </div>
     </section>
 
-    <!-- Plans Section -->
+    <!-- PLANS (4 Payhip buttons) -->
     <section id="plans" class="panel">
       <h2>Choose Your Plan</h2>
       <div class="cards">
         <article class="card">
           <h3>Starter</h3>
-          <p>Use NOVA's 50‑trait discovery + downloadable snapshot PDF (coming in-app), and basic guidance.</p>
-          <p class="price">$29.99/mo</p>
-          <!-- Example non-Payhip CTA for Starter -->
-          <a class="btn" href="#" onclick="alert('Starter selected. Integrate Stripe here.'); return false;">Select Starter</a>
+          <p>50‑trait discovery + snapshot</p>
+          <a href="https://payhip.com/b/GdfU7" class="payhip-buy-button" data-theme="green" data-product="GdfU7">Buy Now</a>
+        </article>
+        <article class="card">
+          <h3>Pro</h3>
+          <p>Everything in Starter + Resume builder, cover letters, and more</p>
+          <a href="https://payhip.com/b/knC1Z" class="payhip-buy-button" data-theme="green" data-product="knC1Z">Buy Now</a>
         </article>
         <article class="card">
           <h3>Pro Suite (Mastery)</h3>
-          <p>Everything in Starter + Resume Rewrite AI, unlimited cover letters, company intel reports, advanced filters, and more.</p>
-          <p class="price">$149/mo</p>
-          <!-- Payhip embed (from your codes) -->
+          <p>All Pro tools + company intel reports, advanced filters, priority support</p>
           <a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Now</a>
         </article>
         <article class="card">
           <h3>Purpose Book</h3>
-          <p>How to know your Purpose — keep it handy as your pocket compass.</p>
-          <p class="price">$14.99</p>
-          <!-- Payhip embed for book -->
+          <p>How to Know Your Purpose — your pocket compass</p>
           <a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Now</a>
         </article>
       </div>
       <div class="bar">
-        <button class="ghost" data-nav="results">Back to Results</button>
+        <button class="ghost" data-nav="reflect">Back to Reflection</button>
         <button class="primary" data-nav="traits">Adjust My Traits</button>
       </div>
     </section>
@@ -97,7 +118,6 @@
     <small>© NOVA. Purpose over panic.</small>
   </footer>
 
-  <script type="module" src="./traits.js"></script>
   <script type="module" src="./app.js"></script>
 </body>
 </html>

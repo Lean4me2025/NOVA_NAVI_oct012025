@@ -1,0 +1,4890 @@
+[
+  {
+    "title": "Accountants and Auditors",
+    "soc": "B047",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 65344,
+      "high": 98016
+    },
+    "summary": ""
+  },
+  {
+    "title": "Actors",
+    "soc": "B151",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 1619,
+      "high": 2428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Actuaries",
+    "soc": "B063",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 100616,
+      "high": 150924
+    },
+    "summary": ""
+  },
+  {
+    "title": "Administrative Services and Facilities Managers",
+    "soc": "B020",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 85504,
+      "high": 128256
+    },
+    "summary": ""
+  },
+  {
+    "title": "Adult Basic and Secondary Education and ESL Teachers",
+    "soc": "B136",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 47960,
+      "high": 71940
+    },
+    "summary": ""
+  },
+  {
+    "title": "Advertising, Promotions, and Marketing Managers",
+    "soc": "B016",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t25",
+      "t33",
+      "t38",
+      "t39"
+    ],
+    "salary": {
+      "low": 127728,
+      "high": 191592
+    },
+    "summary": ""
+  },
+  {
+    "title": "Advertising Sales Agents",
+    "soc": "B239",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 49168,
+      "high": 73752
+    },
+    "summary": ""
+  },
+  {
+    "title": "Aerospace Engineering and Operations Technologists and Technicians",
+    "soc": "B334",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 63864,
+      "high": 95796
+    },
+    "summary": ""
+  },
+  {
+    "title": "Aerospace Engineers",
+    "soc": "B070",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 107864,
+      "high": 161796
+    },
+    "summary": ""
+  },
+  {
+    "title": "Agricultural and Food Science Technicians",
+    "soc": "B342",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38784,
+      "high": 58176
+    },
+    "summary": ""
+  },
+  {
+    "title": "Agricultural and Food Scientists",
+    "soc": "B090",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 63016,
+      "high": 94524
+    },
+    "summary": ""
+  },
+  {
+    "title": "Agricultural Engineers",
+    "soc": "B332",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 67704,
+      "high": 101556
+    },
+    "summary": ""
+  },
+  {
+    "title": "Agricultural Workers",
+    "soc": "B257",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 28784,
+      "high": 43176
+    },
+    "summary": ""
+  },
+  {
+    "title": "Aircraft and Avionics Equipment Mechanics and Technicians",
+    "soc": "B280",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 63312,
+      "high": 94968
+    },
+    "summary": ""
+  },
+  {
+    "title": "Airline and Commercial Pilots",
+    "soc": "B311",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 158480,
+      "high": 237720
+    },
+    "summary": ""
+  },
+  {
+    "title": "Air Traffic Controllers",
+    "soc": "B312",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 115664,
+      "high": 173496
+    },
+    "summary": ""
+  },
+  {
+    "title": "Animal Care and Service Workers",
+    "soc": "B227",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 27088,
+      "high": 40632
+    },
+    "summary": ""
+  },
+  {
+    "title": "Announcers and DJs",
+    "soc": "B160",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 1619,
+      "high": 2428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Anthropologists and Archeologists",
+    "soc": "B108",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51928,
+      "high": 77892
+    },
+    "summary": ""
+  },
+  {
+    "title": "Arbitrators, Mediators, and Conciliators",
+    "soc": "B122",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 54168,
+      "high": 81252
+    },
+    "summary": ""
+  },
+  {
+    "title": "Architects",
+    "soc": "B066",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 77352,
+      "high": 116028
+    },
+    "summary": ""
+  },
+  {
+    "title": "Architectural and Engineering Managers",
+    "soc": "B032",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 134192,
+      "high": 201288
+    },
+    "summary": ""
+  },
+  {
+    "title": "Archivists, Curators, and Museum Workers",
+    "soc": "B137",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 45680,
+      "high": 68520
+    },
+    "summary": ""
+  },
+  {
+    "title": "Art Directors",
+    "soc": "B143",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 88832,
+      "high": 133248
+    },
+    "summary": ""
+  },
+  {
+    "title": "Assemblers and Fabricators",
+    "soc": "B293",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34856,
+      "high": 52284
+    },
+    "summary": ""
+  },
+  {
+    "title": "Athletes and Sports Competitors",
+    "soc": "B153",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49888,
+      "high": 74832
+    },
+    "summary": ""
+  },
+  {
+    "title": "Athletic Trainers",
+    "soc": "B128",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48200,
+      "high": 72300
+    },
+    "summary": ""
+  },
+  {
+    "title": "Atmospheric Scientists, Including Meteorologists",
+    "soc": "B005",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 77960,
+      "high": 116940
+    },
+    "summary": ""
+  },
+  {
+    "title": "Audiologists",
+    "soc": "B011",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 73696,
+      "high": 110544
+    },
+    "summary": ""
+  },
+  {
+    "title": "Automotive Body and Glass Repairers",
+    "soc": "B282",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40544,
+      "high": 60816
+    },
+    "summary": ""
+  },
+  {
+    "title": "Automotive Service Technicians and Mechanics",
+    "soc": "B283",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 39736,
+      "high": 59604
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bakers",
+    "soc": "B294",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 29320,
+      "high": 43980
+    },
+    "summary": ""
+  },
+  {
+    "title": "Barbers, Hairstylists, and Cosmetologists",
+    "soc": "B229",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 28336,
+      "high": 42504
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bartenders",
+    "soc": "B220",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 26824,
+      "high": 40236
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bill and Account Collectors",
+    "soc": "B246",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36832,
+      "high": 55248
+    },
+    "summary": ""
+  },
+  {
+    "title": "Biochemists and Biophysicists",
+    "soc": "B093",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 82920,
+      "high": 124380
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bioengineers and Biomedical Engineers",
+    "soc": "B071",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 85560,
+      "high": 128340
+    },
+    "summary": ""
+  },
+  {
+    "title": "Biological Technicians",
+    "soc": "B110",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 41600,
+      "high": 62400
+    },
+    "summary": ""
+  },
+  {
+    "title": "Boilermakers",
+    "soc": "B367",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 58672,
+      "high": 88008
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bookkeeping, Accounting, and Auditing Clerks",
+    "soc": "B247",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 39368,
+      "high": 59052
+    },
+    "summary": ""
+  },
+  {
+    "title": "Broadcast, Sound, and Video Technicians",
+    "soc": "B166",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 45280,
+      "high": 67920
+    },
+    "summary": ""
+  },
+  {
+    "title": "Budget Analysts",
+    "soc": "B049",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 70344,
+      "high": 105516
+    },
+    "summary": ""
+  },
+  {
+    "title": "Bus Drivers",
+    "soc": "B313",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38696,
+      "high": 58044
+    },
+    "summary": ""
+  },
+  {
+    "title": "Butchers",
+    "soc": "B295",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 31168,
+      "high": 46752
+    },
+    "summary": ""
+  },
+  {
+    "title": "Calibration Technologists and Technicians",
+    "soc": "B402",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 52032,
+      "high": 78048
+    },
+    "summary": ""
+  },
+  {
+    "title": "Cardiovascular Technologists and Technicians",
+    "soc": "B186",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53808,
+      "high": 80712
+    },
+    "summary": ""
+  },
+  {
+    "title": "Career and Technical Education Teachers",
+    "soc": "B134",
+    "traits": [
+      "t03",
+      "t07",
+      "t16",
+      "t19",
+      "t47",
+      "t49"
+    ],
+    "salary": {
+      "low": 50328,
+      "high": 75492
+    },
+    "summary": ""
+  },
+  {
+    "title": "Carpenters",
+    "soc": "B260",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47448,
+      "high": 71172
+    },
+    "summary": ""
+  },
+  {
+    "title": "Cartographers and Photogrammetrists",
+    "soc": "B068",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 62704,
+      "high": 94056
+    },
+    "summary": ""
+  },
+  {
+    "title": "Cashiers",
+    "soc": "B237",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 24952,
+      "high": 37428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Chefs and Head Cooks",
+    "soc": "B217",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48792,
+      "high": 73188
+    },
+    "summary": ""
+  },
+  {
+    "title": "Chemical Engineers",
+    "soc": "B072",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 97488,
+      "high": 146232
+    },
+    "summary": ""
+  },
+  {
+    "title": "Chemical Technicians",
+    "soc": "B111",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46232,
+      "high": 69348
+    },
+    "summary": ""
+  },
+  {
+    "title": "Chemists and Materials Scientists",
+    "soc": "B099",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 69296,
+      "high": 103944
+    },
+    "summary": ""
+  },
+  {
+    "title": "Childcare Workers",
+    "soc": "B233",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 25640,
+      "high": 38460
+    },
+    "summary": ""
+  },
+  {
+    "title": "Chiropractors",
+    "soc": "B169",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 63200,
+      "high": 94800
+    },
+    "summary": ""
+  },
+  {
+    "title": "Civil Engineering Technologists and Technicians",
+    "soc": "B085",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51360,
+      "high": 77040
+    },
+    "summary": ""
+  },
+  {
+    "title": "Civil Engineers",
+    "soc": "B073",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 79672,
+      "high": 119508
+    },
+    "summary": ""
+  },
+  {
+    "title": "Claims Adjusters, Appraisers, Examiners, and Investigators",
+    "soc": "B042",
+    "traits": [
+      "t01",
+      "t09",
+      "t17",
+      "t18",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 61432,
+      "high": 92148
+    },
+    "summary": ""
+  },
+  {
+    "title": "Clinical Laboratory Technologists and Technicians",
+    "soc": "B184",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 49512,
+      "high": 74268
+    },
+    "summary": ""
+  },
+  {
+    "title": "Coaches and Scouts",
+    "soc": "B154",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36736,
+      "high": 55104
+    },
+    "summary": ""
+  },
+  {
+    "title": "Community Health Workers",
+    "soc": "B399",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 40824,
+      "high": 61236
+    },
+    "summary": ""
+  },
+  {
+    "title": "Compensation, Benefits, and Job Analysis Specialists",
+    "soc": "B050",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 61616,
+      "high": 92424
+    },
+    "summary": ""
+  },
+  {
+    "title": "Compensation and Benefits Managers",
+    "soc": "B023",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 112288,
+      "high": 168432
+    },
+    "summary": ""
+  },
+  {
+    "title": "Compliance Officers",
+    "soc": "B405",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 62736,
+      "high": 94104
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer and Information Research Scientists",
+    "soc": "B003",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 112728,
+      "high": 169092
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer and Information Systems Managers",
+    "soc": "B021",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 136960,
+      "high": 205440
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer Hardware Engineers",
+    "soc": "B074",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 124016,
+      "high": 186024
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer Network Architects",
+    "soc": "B118",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 104312,
+      "high": 156468
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer Programmers",
+    "soc": "B056",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 78936,
+      "high": 118404
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer Support Specialists",
+    "soc": "B058",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49240,
+      "high": 73860
+    },
+    "summary": ""
+  },
+  {
+    "title": "Computer Systems Analysts",
+    "soc": "B059",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 83032,
+      "high": 124548
+    },
+    "summary": ""
+  },
+  {
+    "title": "Concierges",
+    "soc": "B409",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 29856,
+      "high": 44784
+    },
+    "summary": ""
+  },
+  {
+    "title": "Conservation Scientists and Foresters",
+    "soc": "B337",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 55248,
+      "high": 82872
+    },
+    "summary": ""
+  },
+  {
+    "title": "Construction and Building Inspectors",
+    "soc": "B274",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 57696,
+      "high": 86544
+    },
+    "summary": ""
+  },
+  {
+    "title": "Construction Equipment Operators",
+    "soc": "B264",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 46656,
+      "high": 69984
+    },
+    "summary": ""
+  },
+  {
+    "title": "Construction Laborers and Helpers",
+    "soc": "B263",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36840,
+      "high": 55260
+    },
+    "summary": ""
+  },
+  {
+    "title": "Construction Managers",
+    "soc": "B028",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 85584,
+      "high": 128376
+    },
+    "summary": ""
+  },
+  {
+    "title": "Cooks",
+    "soc": "B218",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 28608,
+      "high": 42912
+    },
+    "summary": ""
+  },
+  {
+    "title": "Correctional Officers and Bailiffs",
+    "soc": "B212",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46360,
+      "high": 69540
+    },
+    "summary": ""
+  },
+  {
+    "title": "Cost Estimators",
+    "soc": "B043",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 61656,
+      "high": 92484
+    },
+    "summary": ""
+  },
+  {
+    "title": "Court Reporters and Simultaneous Captioners",
+    "soc": "B008",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53848,
+      "high": 80772
+    },
+    "summary": ""
+  },
+  {
+    "title": "Craft and Fine Artists",
+    "soc": "B348",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 45008,
+      "high": 67512
+    },
+    "summary": ""
+  },
+  {
+    "title": "Credit Counselors",
+    "soc": "B406",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40384,
+      "high": 60576
+    },
+    "summary": ""
+  },
+  {
+    "title": "Customer Service Representatives",
+    "soc": "B249",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34264,
+      "high": 51396
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dancers and Choreographers",
+    "soc": "B156",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 1619,
+      "high": 2428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Database Administrators and Architects",
+    "soc": "B060",
+    "traits": [
+      "t01",
+      "t12",
+      "t35"
+    ],
+    "salary": {
+      "low": 98480,
+      "high": 147720
+    },
+    "summary": ""
+  },
+  {
+    "title": "Data Scientists",
+    "soc": "B397",
+    "traits": [
+      "t01",
+      "t12",
+      "t35"
+    ],
+    "salary": {
+      "low": 90072,
+      "high": 135108
+    },
+    "summary": ""
+  },
+  {
+    "title": "Delivery Truck Drivers and Driver/Sales Workers",
+    "soc": "B314",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 34216,
+      "high": 51324
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dental and Ophthalmic Laboratory Technicians and Medical Appliance Technicians",
+    "soc": "B308",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 36656,
+      "high": 54984
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dental Assistants",
+    "soc": "B207",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37840,
+      "high": 56760
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dental Hygienists",
+    "soc": "B185",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 75408,
+      "high": 113112
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dentists",
+    "soc": "B170",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 143368,
+      "high": 215052
+    },
+    "summary": ""
+  },
+  {
+    "title": "Desktop Publishers",
+    "soc": "B256",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 42896,
+      "high": 64344
+    },
+    "summary": ""
+  },
+  {
+    "title": "Diagnostic Medical Sonographers",
+    "soc": "B187",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 71472,
+      "high": 107208
+    },
+    "summary": ""
+  },
+  {
+    "title": "Diesel Service Technicians and Mechanics",
+    "soc": "B284",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48512,
+      "high": 72768
+    },
+    "summary": ""
+  },
+  {
+    "title": "Dietitians and Nutritionists",
+    "soc": "B010",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 59080,
+      "high": 88620
+    },
+    "summary": ""
+  },
+  {
+    "title": "Drafters",
+    "soc": "B084",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 52304,
+      "high": 78456
+    },
+    "summary": ""
+  },
+  {
+    "title": "Drywall Installers, Ceiling Tile Installers, and Tapers",
+    "soc": "B265",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47040,
+      "high": 70560
+    },
+    "summary": ""
+  },
+  {
+    "title": "Economists",
+    "soc": "B006",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 92352,
+      "high": 138528
+    },
+    "summary": ""
+  },
+  {
+    "title": "Editors",
+    "soc": "B162",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 60208,
+      "high": 90312
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electrical and Electronic Engineering Technologists and Technicians",
+    "soc": "B335",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 61744,
+      "high": 92616
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electrical and Electronics Engineers",
+    "soc": "B075",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 95024,
+      "high": 142536
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electrical and Electronics Installers and Repairers",
+    "soc": "B373",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 57016,
+      "high": 85524
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electrical Power-Line Installers and Repairers",
+    "soc": "B291",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 74048,
+      "high": 111072
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electricians",
+    "soc": "B013",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49880,
+      "high": 74820
+    },
+    "summary": ""
+  },
+  {
+    "title": "Electro-mechanical and Mechatronics Technologists and Technicians",
+    "soc": "B336",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 56608,
+      "high": 84912
+    },
+    "summary": ""
+  },
+  {
+    "title": "Elementary, Middle, and High School Principals",
+    "soc": "B030",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 83256,
+      "high": 124884
+    },
+    "summary": ""
+  },
+  {
+    "title": "Elevator and Escalator Installers and Repairers",
+    "soc": "B275",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 85264,
+      "high": 127896
+    },
+    "summary": ""
+  },
+  {
+    "title": "Emergency Management Directors",
+    "soc": "B040",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 68904,
+      "high": 103356
+    },
+    "summary": ""
+  },
+  {
+    "title": "EMTs and Paramedics",
+    "soc": "B190",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37080,
+      "high": 55620
+    },
+    "summary": ""
+  },
+  {
+    "title": "Entertainment and Recreation Managers",
+    "soc": "B401",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 61744,
+      "high": 92616
+    },
+    "summary": ""
+  },
+  {
+    "title": "Environmental Engineering Technologists and Technicians",
+    "soc": "B086",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47112,
+      "high": 70668
+    },
+    "summary": ""
+  },
+  {
+    "title": "Environmental Engineers",
+    "soc": "B076",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 83336,
+      "high": 125004
+    },
+    "summary": ""
+  },
+  {
+    "title": "Environmental Science and Protection Technicians",
+    "soc": "B114",
+    "traits": [
+      "t21",
+      "t22",
+      "t41",
+      "t47"
+    ],
+    "salary": {
+      "low": 39592,
+      "high": 59388
+    },
+    "summary": ""
+  },
+  {
+    "title": "Environmental Scientists and Specialists",
+    "soc": "B100",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 64048,
+      "high": 96072
+    },
+    "summary": ""
+  },
+  {
+    "title": "Epidemiologists",
+    "soc": "B096",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 67184,
+      "high": 100776
+    },
+    "summary": ""
+  },
+  {
+    "title": "Exercise Physiologists",
+    "soc": "B395",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46528,
+      "high": 69792
+    },
+    "summary": ""
+  },
+  {
+    "title": "Farmers, Ranchers, and Other Agricultural Managers",
+    "soc": "B027",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 70384,
+      "high": 105576
+    },
+    "summary": ""
+  },
+  {
+    "title": "Fashion Designers",
+    "soc": "B146",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 64552,
+      "high": 96828
+    },
+    "summary": ""
+  },
+  {
+    "title": "Film and Video Editors and Camera Operators",
+    "soc": "B168",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 56456,
+      "high": 84684
+    },
+    "summary": ""
+  },
+  {
+    "title": "Financial Analysts",
+    "soc": "B051",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 81528,
+      "high": 122292
+    },
+    "summary": ""
+  },
+  {
+    "title": "Financial Clerks",
+    "soc": "B358",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 38920,
+      "high": 58380
+    },
+    "summary": ""
+  },
+  {
+    "title": "Financial Examiners",
+    "soc": "B053",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 72320,
+      "high": 108480
+    },
+    "summary": ""
+  },
+  {
+    "title": "Financial Managers",
+    "soc": "B022",
+    "traits": [
+      "t01",
+      "t06",
+      "t08",
+      "t24",
+      "t39",
+      "t44"
+    ],
+    "salary": {
+      "low": 129360,
+      "high": 194040
+    },
+    "summary": ""
+  },
+  {
+    "title": "Firefighters",
+    "soc": "B211",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47624,
+      "high": 71436
+    },
+    "summary": ""
+  },
+  {
+    "title": "Fire Inspectors",
+    "soc": "B352",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 60384,
+      "high": 90576
+    },
+    "summary": ""
+  },
+  {
+    "title": "Fishing and Hunting Workers",
+    "soc": "B258",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 1619,
+      "high": 2428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Fitness Trainers and Instructors",
+    "soc": "B235",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 36944,
+      "high": 55416
+    },
+    "summary": ""
+  },
+  {
+    "title": "Flight Attendants",
+    "soc": "B232",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53704,
+      "high": 80556
+    },
+    "summary": ""
+  },
+  {
+    "title": "Flooring Installers and Tile and Stone Setters",
+    "soc": "B262",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 41600,
+      "high": 62400
+    },
+    "summary": ""
+  },
+  {
+    "title": "Floral Designers",
+    "soc": "B147",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 28896,
+      "high": 43344
+    },
+    "summary": ""
+  },
+  {
+    "title": "Food and Beverage Serving and Related Workers",
+    "soc": "B221",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 24832,
+      "high": 37248
+    },
+    "summary": ""
+  },
+  {
+    "title": "Food Preparation Workers",
+    "soc": "B219",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 27376,
+      "high": 41064
+    },
+    "summary": ""
+  },
+  {
+    "title": "Food Processing Equipment Workers",
+    "soc": "B381",
+    "traits": [
+      "t02",
+      "t14",
+      "t22",
+      "t23",
+      "t33",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 32040,
+      "high": 48060
+    },
+    "summary": ""
+  },
+  {
+    "title": "Food Service Managers",
+    "soc": "B033",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 52248,
+      "high": 78372
+    },
+    "summary": ""
+  },
+  {
+    "title": "Forensic Science Technicians",
+    "soc": "B115",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53952,
+      "high": 80928
+    },
+    "summary": ""
+  },
+  {
+    "title": "Forest and Conservation Workers",
+    "soc": "B365",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34944,
+      "high": 52416
+    },
+    "summary": ""
+  },
+  {
+    "title": "Fundraisers",
+    "soc": "B393",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53192,
+      "high": 79788
+    },
+    "summary": ""
+  },
+  {
+    "title": "Funeral Service Workers",
+    "soc": "B001",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47536,
+      "high": 71304
+    },
+    "summary": ""
+  },
+  {
+    "title": "Gambling Services Workers",
+    "soc": "B228",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 28504,
+      "high": 42756
+    },
+    "summary": ""
+  },
+  {
+    "title": "General Maintenance and Repair Workers",
+    "soc": "B289",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38896,
+      "high": 58344
+    },
+    "summary": ""
+  },
+  {
+    "title": "General Office Clerks",
+    "soc": "B364",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34904,
+      "high": 52356
+    },
+    "summary": ""
+  },
+  {
+    "title": "Genetic Counselors",
+    "soc": "B138",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 79128,
+      "high": 118692
+    },
+    "summary": ""
+  },
+  {
+    "title": "Geographers",
+    "soc": "B340",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 77760,
+      "high": 116640
+    },
+    "summary": ""
+  },
+  {
+    "title": "Geological and Hydrologic Technicians",
+    "soc": "B112",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40408,
+      "high": 60612
+    },
+    "summary": ""
+  },
+  {
+    "title": "Geoscientists",
+    "soc": "B101",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 79392,
+      "high": 119088
+    },
+    "summary": ""
+  },
+  {
+    "title": "Glaziers",
+    "soc": "B266",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 44352,
+      "high": 66528
+    },
+    "summary": ""
+  },
+  {
+    "title": "Graphic Designers",
+    "soc": "B148",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 49040,
+      "high": 73560
+    },
+    "summary": ""
+  },
+  {
+    "title": "Grounds Maintenance Workers",
+    "soc": "B226",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 30776,
+      "high": 46164
+    },
+    "summary": ""
+  },
+  {
+    "title": "Hand Laborers and Material Movers",
+    "soc": "B322",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 30144,
+      "high": 45216
+    },
+    "summary": ""
+  },
+  {
+    "title": "Hazardous Materials Removal Workers",
+    "soc": "B276",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38792,
+      "high": 58188
+    },
+    "summary": ""
+  },
+  {
+    "title": "Health and Safety Engineers",
+    "soc": "B333",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 87728,
+      "high": 131592
+    },
+    "summary": ""
+  },
+  {
+    "title": "Health Education Specialists",
+    "soc": "B007",
+    "traits": [
+      "t03",
+      "t07",
+      "t16",
+      "t19",
+      "t47",
+      "t49"
+    ],
+    "salary": {
+      "low": 50400,
+      "high": 75600
+    },
+    "summary": ""
+  },
+  {
+    "title": "Health Information Technologists and Medical Registrars",
+    "soc": "B398",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 53848,
+      "high": 80772
+    },
+    "summary": ""
+  },
+  {
+    "title": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers",
+    "soc": "B287",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47848,
+      "high": 71772
+    },
+    "summary": ""
+  },
+  {
+    "title": "Heavy and Tractor-trailer Truck Drivers",
+    "soc": "B315",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 45952,
+      "high": 68928
+    },
+    "summary": ""
+  },
+  {
+    "title": "Heavy Vehicle and Mobile Equipment Service Technicians",
+    "soc": "B285",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 50192,
+      "high": 75288
+    },
+    "summary": ""
+  },
+  {
+    "title": "High School Teachers",
+    "soc": "B392",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 51664,
+      "high": 77496
+    },
+    "summary": ""
+  },
+  {
+    "title": "Historians",
+    "soc": "B341",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 59240,
+      "high": 88860
+    },
+    "summary": ""
+  },
+  {
+    "title": "Home Health and Personal Care Aides",
+    "soc": "B201",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 27920,
+      "high": 41880
+    },
+    "summary": ""
+  },
+  {
+    "title": "Human Resources Managers",
+    "soc": "B025",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 112024,
+      "high": 168036
+    },
+    "summary": ""
+  },
+  {
+    "title": "Human Resources Specialists",
+    "soc": "B041",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 58328,
+      "high": 87492
+    },
+    "summary": ""
+  },
+  {
+    "title": "Hydrologists",
+    "soc": "B102",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 73648,
+      "high": 110472
+    },
+    "summary": ""
+  },
+  {
+    "title": "Industrial Designers",
+    "soc": "B145",
+    "traits": [
+      "t02",
+      "t14",
+      "t22",
+      "t23",
+      "t33",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 63560,
+      "high": 95340
+    },
+    "summary": ""
+  },
+  {
+    "title": "Industrial Engineering Technologists and Technicians",
+    "soc": "B087",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 51832,
+      "high": 77748
+    },
+    "summary": ""
+  },
+  {
+    "title": "Industrial Engineers",
+    "soc": "B077",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 80912,
+      "high": 121368
+    },
+    "summary": ""
+  },
+  {
+    "title": "Industrial Machinery Mechanics, Machinery Maintenance Workers, and Millwrights",
+    "soc": "B288",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 50808,
+      "high": 76212
+    },
+    "summary": ""
+  },
+  {
+    "title": "Industrial Production Managers",
+    "soc": "B026",
+    "traits": [
+      "t06",
+      "t08",
+      "t14",
+      "t22",
+      "t24",
+      "t39",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 97152,
+      "high": 145728
+    },
+    "summary": ""
+  },
+  {
+    "title": "Information Clerks",
+    "soc": "B359",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34984,
+      "high": 52476
+    },
+    "summary": ""
+  },
+  {
+    "title": "Information Security Analysts",
+    "soc": "B062",
+    "traits": [
+      "t21",
+      "t22",
+      "t41",
+      "t47"
+    ],
+    "salary": {
+      "low": 99928,
+      "high": 149892
+    },
+    "summary": ""
+  },
+  {
+    "title": "Instructional Coordinators",
+    "soc": "B141",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 59776,
+      "high": 89664
+    },
+    "summary": ""
+  },
+  {
+    "title": "Insulation Workers",
+    "soc": "B267",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40584,
+      "high": 60876
+    },
+    "summary": ""
+  },
+  {
+    "title": "Insurance Sales Agents",
+    "soc": "B240",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 48296,
+      "high": 72444
+    },
+    "summary": ""
+  },
+  {
+    "title": "Insurance Underwriters",
+    "soc": "B002",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 63904,
+      "high": 95856
+    },
+    "summary": ""
+  },
+  {
+    "title": "Interior Designers",
+    "soc": "B149",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 50792,
+      "high": 76188
+    },
+    "summary": ""
+  },
+  {
+    "title": "Interpreters and Translators",
+    "soc": "B165",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47552,
+      "high": 71328
+    },
+    "summary": ""
+  },
+  {
+    "title": "Ironworkers",
+    "soc": "B273",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49552,
+      "high": 74328
+    },
+    "summary": ""
+  },
+  {
+    "title": "Janitors and Building Cleaners",
+    "soc": "B223",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 28744,
+      "high": 43116
+    },
+    "summary": ""
+  },
+  {
+    "title": "Jewelers and Precious Stone and Metal Workers",
+    "soc": "B307",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 39312,
+      "high": 58968
+    },
+    "summary": ""
+  },
+  {
+    "title": "Judges and Hearing Officers",
+    "soc": "B123",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 108128,
+      "high": 162192
+    },
+    "summary": ""
+  },
+  {
+    "title": "Kindergarten and Elementary School Teachers",
+    "soc": "B132",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 49848,
+      "high": 74772
+    },
+    "summary": ""
+  },
+  {
+    "title": "Labor Relations Specialists",
+    "soc": "B394",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 74800,
+      "high": 112200
+    },
+    "summary": ""
+  },
+  {
+    "title": "Landscape Architects",
+    "soc": "B067",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 63728,
+      "high": 95592
+    },
+    "summary": ""
+  },
+  {
+    "title": "Lawyers",
+    "soc": "B126",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 120928,
+      "high": 181392
+    },
+    "summary": ""
+  },
+  {
+    "title": "Librarians and Library Media Specialists",
+    "soc": "B139",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51456,
+      "high": 77184
+    },
+    "summary": ""
+  },
+  {
+    "title": "Library Technicians and Assistants",
+    "soc": "B140",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 30032,
+      "high": 45048
+    },
+    "summary": ""
+  },
+  {
+    "title": "Licensed Practical and Licensed Vocational Nurses",
+    "soc": "B195",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 49872,
+      "high": 74808
+    },
+    "summary": ""
+  },
+  {
+    "title": "Loan Officers",
+    "soc": "B054",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 59344,
+      "high": 89016
+    },
+    "summary": ""
+  },
+  {
+    "title": "Lodging Managers",
+    "soc": "B034",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 54504,
+      "high": 81756
+    },
+    "summary": ""
+  },
+  {
+    "title": "Logging Workers",
+    "soc": "B366",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 39632,
+      "high": 59448
+    },
+    "summary": ""
+  },
+  {
+    "title": "Logisticians",
+    "soc": "B329",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 64704,
+      "high": 97056
+    },
+    "summary": ""
+  },
+  {
+    "title": "Machinists and Tool and Die Makers",
+    "soc": "B297",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46160,
+      "high": 69240
+    },
+    "summary": ""
+  },
+  {
+    "title": "Management Analysts",
+    "soc": "B045",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 80952,
+      "high": 121428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Manicurists and Pedicurists",
+    "soc": "B230",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 27728,
+      "high": 41592
+    },
+    "summary": ""
+  },
+  {
+    "title": "Marine Engineers and Naval Architects",
+    "soc": "B078",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 84536,
+      "high": 126804
+    },
+    "summary": ""
+  },
+  {
+    "title": "Market Research Analysts",
+    "soc": "B103",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 61560,
+      "high": 92340
+    },
+    "summary": ""
+  },
+  {
+    "title": "Marriage and Family Therapists",
+    "soc": "B119",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51024,
+      "high": 76536
+    },
+    "summary": ""
+  },
+  {
+    "title": "Masonry Workers",
+    "soc": "B259",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 45280,
+      "high": 67920
+    },
+    "summary": ""
+  },
+  {
+    "title": "Massage Therapists",
+    "soc": "B206",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46360,
+      "high": 69540
+    },
+    "summary": ""
+  },
+  {
+    "title": "Material Moving Machine Operators",
+    "soc": "B321",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37296,
+      "high": 55944
+    },
+    "summary": ""
+  },
+  {
+    "title": "Material Recording Clerks",
+    "soc": "B361",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36896,
+      "high": 55344
+    },
+    "summary": ""
+  },
+  {
+    "title": "Materials Engineers",
+    "soc": "B079",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 86648,
+      "high": 129972
+    },
+    "summary": ""
+  },
+  {
+    "title": "Mathematicians and Statisticians",
+    "soc": "B004",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 83480,
+      "high": 125220
+    },
+    "summary": ""
+  },
+  {
+    "title": "Mechanical Engineering Technologists and Technicians",
+    "soc": "B088",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 54984,
+      "high": 82476
+    },
+    "summary": ""
+  },
+  {
+    "title": "Mechanical Engineers",
+    "soc": "B080",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 81856,
+      "high": 122784
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical and Health Services Managers",
+    "soc": "B035",
+    "traits": [
+      "t03",
+      "t06",
+      "t08",
+      "t16",
+      "t24",
+      "t39",
+      "t47"
+    ],
+    "salary": {
+      "low": 94368,
+      "high": 141552
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Assistants",
+    "soc": "B208",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 35360,
+      "high": 53040
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Dosimetrists",
+    "soc": "B400",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 110488,
+      "high": 165732
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Equipment Repairers",
+    "soc": "B292",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 50104,
+      "high": 75156
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Records Specialists",
+    "soc": "B196",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40200,
+      "high": 60300
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Scientists",
+    "soc": "B097",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 80472,
+      "high": 120708
+    },
+    "summary": ""
+  },
+  {
+    "title": "Medical Transcriptionists",
+    "soc": "B209",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 30040,
+      "high": 45060
+    },
+    "summary": ""
+  },
+  {
+    "title": "Meeting, Convention, and Event Planners",
+    "soc": "B046",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 47552,
+      "high": 71328
+    },
+    "summary": ""
+  },
+  {
+    "title": "Metal and Plastic Machine Workers",
+    "soc": "B296",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37440,
+      "high": 56160
+    },
+    "summary": ""
+  },
+  {
+    "title": "Microbiologists",
+    "soc": "B094",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 69864,
+      "high": 104796
+    },
+    "summary": ""
+  },
+  {
+    "title": "Middle School Teachers",
+    "soc": "B133",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 50376,
+      "high": 75564
+    },
+    "summary": ""
+  },
+  {
+    "title": "Military Careers",
+    "soc": "B389",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": null,
+      "high": null
+    },
+    "summary": ""
+  },
+  {
+    "title": "Mining and Geological Engineers",
+    "soc": "B081",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 80816,
+      "high": 121224
+    },
+    "summary": ""
+  },
+  {
+    "title": "Models",
+    "soc": "B243",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 71992,
+      "high": 107988
+    },
+    "summary": ""
+  },
+  {
+    "title": "Music Directors and Composers",
+    "soc": "B158",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 50936,
+      "high": 76404
+    },
+    "summary": ""
+  },
+  {
+    "title": "Musicians and Singers",
+    "soc": "B159",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 1619,
+      "high": 2428
+    },
+    "summary": ""
+  },
+  {
+    "title": "Natural Sciences Managers",
+    "soc": "B036",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 128944,
+      "high": 193416
+    },
+    "summary": ""
+  },
+  {
+    "title": "Network and Computer Systems Administrators",
+    "soc": "B061",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 77440,
+      "high": 116160
+    },
+    "summary": ""
+  },
+  {
+    "title": "News Analysts, Reporters, and Journalists",
+    "soc": "B161",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48224,
+      "high": 72336
+    },
+    "summary": ""
+  },
+  {
+    "title": "Nuclear Engineers",
+    "soc": "B082",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 102016,
+      "high": 153024
+    },
+    "summary": ""
+  },
+  {
+    "title": "Nuclear Medicine Technologists",
+    "soc": "B188",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 77616,
+      "high": 116424
+    },
+    "summary": ""
+  },
+  {
+    "title": "Nuclear Technicians",
+    "soc": "B113",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 83392,
+      "high": 125088
+    },
+    "summary": ""
+  },
+  {
+    "title": "Nurse Anesthetists, Nurse Midwives, and Nurse Practitioners",
+    "soc": "B017",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 105640,
+      "high": 158460
+    },
+    "summary": ""
+  },
+  {
+    "title": "Nursing Assistants and Orderlies",
+    "soc": "B150",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 31544,
+      "high": 47316
+    },
+    "summary": ""
+  },
+  {
+    "title": "Occupational Health and Safety Specialists and Technicians",
+    "soc": "B198",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 63120,
+      "high": 94680
+    },
+    "summary": ""
+  },
+  {
+    "title": "Occupational Therapists",
+    "soc": "B177",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 78672,
+      "high": 118008
+    },
+    "summary": ""
+  },
+  {
+    "title": "Occupational Therapy Assistants and Aides",
+    "soc": "B204",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 52840,
+      "high": 79260
+    },
+    "summary": ""
+  },
+  {
+    "title": "Oil and Gas Workers",
+    "soc": "B410",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 42088,
+      "high": 63132
+    },
+    "summary": ""
+  },
+  {
+    "title": "Operations Research Analysts",
+    "soc": "B064",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 73032,
+      "high": 109548
+    },
+    "summary": ""
+  },
+  {
+    "title": "Opticians",
+    "soc": "B197",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37248,
+      "high": 55872
+    },
+    "summary": ""
+  },
+  {
+    "title": "Optometrists",
+    "soc": "B171",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 107864,
+      "high": 161796
+    },
+    "summary": ""
+  },
+  {
+    "title": "Orthotists and Prosthetists",
+    "soc": "B351",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 62648,
+      "high": 93972
+    },
+    "summary": ""
+  },
+  {
+    "title": "Painters, Construction and Maintenance",
+    "soc": "B268",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38928,
+      "high": 58392
+    },
+    "summary": ""
+  },
+  {
+    "title": "Painting and Coating Workers",
+    "soc": "B386",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37912,
+      "high": 56868
+    },
+    "summary": ""
+  },
+  {
+    "title": "Paralegals and Legal Assistants",
+    "soc": "B129",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48808,
+      "high": 73212
+    },
+    "summary": ""
+  },
+  {
+    "title": "Personal Financial Advisors",
+    "soc": "B052",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 81712,
+      "high": 122568
+    },
+    "summary": ""
+  },
+  {
+    "title": "Pest Control Workers",
+    "soc": "B225",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 35784,
+      "high": 53676
+    },
+    "summary": ""
+  },
+  {
+    "title": "Petroleum Engineers",
+    "soc": "B083",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 113024,
+      "high": 169536
+    },
+    "summary": ""
+  },
+  {
+    "title": "Pharmacists",
+    "soc": "B172",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 109984,
+      "high": 164976
+    },
+    "summary": ""
+  },
+  {
+    "title": "Pharmacy Technicians",
+    "soc": "B191",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34768,
+      "high": 52152
+    },
+    "summary": ""
+  },
+  {
+    "title": "Phlebotomists",
+    "soc": "B157",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34928,
+      "high": 52392
+    },
+    "summary": ""
+  },
+  {
+    "title": "Photographers",
+    "soc": "B167",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34016,
+      "high": 51024
+    },
+    "summary": ""
+  },
+  {
+    "title": "Physical Therapist Assistants and Aides",
+    "soc": "B205",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48040,
+      "high": 72060
+    },
+    "summary": ""
+  },
+  {
+    "title": "Physical Therapists",
+    "soc": "B178",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 80816,
+      "high": 121224
+    },
+    "summary": ""
+  },
+  {
+    "title": "Physician Assistants",
+    "soc": "B174",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 106608,
+      "high": 159912
+    },
+    "summary": ""
+  },
+  {
+    "title": "Physicians and Surgeons",
+    "soc": "B173",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 80000,
+      "high": 120000
+    },
+    "summary": ""
+  },
+  {
+    "title": "Physicists and Astronomers",
+    "soc": "B098",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 133032,
+      "high": 199548
+    },
+    "summary": ""
+  },
+  {
+    "title": "Plumbers, Pipefitters, and Steamfitters",
+    "soc": "B269",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 50376,
+      "high": 75564
+    },
+    "summary": ""
+  },
+  {
+    "title": "Podiatrists",
+    "soc": "B175",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 122240,
+      "high": 183360
+    },
+    "summary": ""
+  },
+  {
+    "title": "Police and Detectives",
+    "soc": "B213",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 61816,
+      "high": 92724
+    },
+    "summary": ""
+  },
+  {
+    "title": "Political Scientists",
+    "soc": "B109",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 111504,
+      "high": 167256
+    },
+    "summary": ""
+  },
+  {
+    "title": "Postal Service Workers",
+    "soc": "B253",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 46296,
+      "high": 69444
+    },
+    "summary": ""
+  },
+  {
+    "title": "Postsecondary Education Administrators",
+    "soc": "B031",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 83168,
+      "high": 124752
+    },
+    "summary": ""
+  },
+  {
+    "title": "Postsecondary Teachers",
+    "soc": "B261",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 67184,
+      "high": 100776
+    },
+    "summary": ""
+  },
+  {
+    "title": "Power Plant Operators, Distributors, and Dispatchers",
+    "soc": "B301",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 82880,
+      "high": 124320
+    },
+    "summary": ""
+  },
+  {
+    "title": "Preschool and Childcare Center Directors",
+    "soc": "B029",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 45016,
+      "high": 67524
+    },
+    "summary": ""
+  },
+  {
+    "title": "Preschool Teachers",
+    "soc": "B131",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 29696,
+      "high": 44544
+    },
+    "summary": ""
+  },
+  {
+    "title": "Private Detectives and Investigators",
+    "soc": "B215",
+    "traits": [
+      "t01",
+      "t24",
+      "t44"
+    ],
+    "salary": {
+      "low": 41896,
+      "high": 62844
+    },
+    "summary": ""
+  },
+  {
+    "title": "Probation Officers and Correctional Treatment Specialists",
+    "soc": "B124",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51616,
+      "high": 77424
+    },
+    "summary": ""
+  },
+  {
+    "title": "Producers and Directors",
+    "soc": "B152",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 66784,
+      "high": 100176
+    },
+    "summary": ""
+  },
+  {
+    "title": "Project Management Specialists",
+    "soc": "B396",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 80600,
+      "high": 120900
+    },
+    "summary": ""
+  },
+  {
+    "title": "Property, Real Estate, and Community Association Managers",
+    "soc": "B037",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 53360,
+      "high": 80040
+    },
+    "summary": ""
+  },
+  {
+    "title": "Property Appraisers and Assessors",
+    "soc": "B048",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 52336,
+      "high": 78504
+    },
+    "summary": ""
+  },
+  {
+    "title": "Psychiatric Technicians and Aides",
+    "soc": "B203",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 33760,
+      "high": 50640
+    },
+    "summary": ""
+  },
+  {
+    "title": "Psychologists",
+    "soc": "B105",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 75448,
+      "high": 113172
+    },
+    "summary": ""
+  },
+  {
+    "title": "Public Relations and Fundraising Managers",
+    "soc": "B019",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 106296,
+      "high": 159444
+    },
+    "summary": ""
+  },
+  {
+    "title": "Public Relations Specialists",
+    "soc": "B009",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 55824,
+      "high": 83736
+    },
+    "summary": ""
+  },
+  {
+    "title": "Public Safety Telecommunicators",
+    "soc": "B252",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40584,
+      "high": 60876
+    },
+    "summary": ""
+  },
+  {
+    "title": "Purchasing Managers, Buyers, and Purchasing Agents",
+    "soc": "B324",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 63864,
+      "high": 95796
+    },
+    "summary": ""
+  },
+  {
+    "title": "Quality Control Inspectors",
+    "soc": "B306",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37968,
+      "high": 56952
+    },
+    "summary": ""
+  },
+  {
+    "title": "Radiation Therapists",
+    "soc": "B179",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 81592,
+      "high": 122388
+    },
+    "summary": ""
+  },
+  {
+    "title": "Radiologic and MRI Technologists",
+    "soc": "B189",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 63184,
+      "high": 94776
+    },
+    "summary": ""
+  },
+  {
+    "title": "Railroad Workers",
+    "soc": "B317",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 60544,
+      "high": 90816
+    },
+    "summary": ""
+  },
+  {
+    "title": "Real Estate Brokers and Sales Agents",
+    "soc": "B244",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 47168,
+      "high": 70752
+    },
+    "summary": ""
+  },
+  {
+    "title": "Receptionists",
+    "soc": "B250",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 29784,
+      "high": 44676
+    },
+    "summary": ""
+  },
+  {
+    "title": "Recreational Therapists",
+    "soc": "B180",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48224,
+      "high": 72336
+    },
+    "summary": ""
+  },
+  {
+    "title": "Recreation Workers",
+    "soc": "B236",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 28304,
+      "high": 42456
+    },
+    "summary": ""
+  },
+  {
+    "title": "Registered Nurses",
+    "soc": "B176",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 74880,
+      "high": 112320
+    },
+    "summary": ""
+  },
+  {
+    "title": "Rehabilitation Counselors",
+    "soc": "B120",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36888,
+      "high": 55332
+    },
+    "summary": ""
+  },
+  {
+    "title": "Respiratory Therapists",
+    "soc": "B181",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 64360,
+      "high": 96540
+    },
+    "summary": ""
+  },
+  {
+    "title": "Retail Sales Workers",
+    "soc": "B238",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 27784,
+      "high": 41676
+    },
+    "summary": ""
+  },
+  {
+    "title": "Roofers",
+    "soc": "B272",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40776,
+      "high": 61164
+    },
+    "summary": ""
+  },
+  {
+    "title": "Sales Engineers",
+    "soc": "B245",
+    "traits": [
+      "t25",
+      "t33",
+      "t38"
+    ],
+    "salary": {
+      "low": 97216,
+      "high": 145824
+    },
+    "summary": ""
+  },
+  {
+    "title": "Sales Managers",
+    "soc": "B018",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t25",
+      "t33",
+      "t38",
+      "t39"
+    ],
+    "salary": {
+      "low": 110448,
+      "high": 165672
+    },
+    "summary": ""
+  },
+  {
+    "title": "School and Career Counselors and Advisors",
+    "soc": "B117",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 52112,
+      "high": 78168
+    },
+    "summary": ""
+  },
+  {
+    "title": "Secretaries and Administrative Assistants",
+    "soc": "B254",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 37968,
+      "high": 56952
+    },
+    "summary": ""
+  },
+  {
+    "title": "Securities, Commodities, and Financial Services Sales Agents",
+    "soc": "B241",
+    "traits": [
+      "t01",
+      "t24",
+      "t25",
+      "t33",
+      "t38",
+      "t44"
+    ],
+    "salary": {
+      "low": 62512,
+      "high": 93768
+    },
+    "summary": ""
+  },
+  {
+    "title": "Security Guards and Gambling Surveillance Officers",
+    "soc": "B216",
+    "traits": [
+      "t21",
+      "t22",
+      "t41",
+      "t47"
+    ],
+    "salary": {
+      "low": 30712,
+      "high": 46068
+    },
+    "summary": ""
+  },
+  {
+    "title": "Semiconductor Processing Technicians",
+    "soc": "B408",
+    "traits": [
+      "t14",
+      "t22",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 40944,
+      "high": 61416
+    },
+    "summary": ""
+  },
+  {
+    "title": "Set and Exhibit Designers",
+    "soc": "B407",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 53024,
+      "high": 79536
+    },
+    "summary": ""
+  },
+  {
+    "title": "Sheet Metal Workers",
+    "soc": "B369",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 48680,
+      "high": 73020
+    },
+    "summary": ""
+  },
+  {
+    "title": "Skincare Specialists",
+    "soc": "B231",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 33248,
+      "high": 49872
+    },
+    "summary": ""
+  },
+  {
+    "title": "Small Engine Mechanics",
+    "soc": "B286",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38592,
+      "high": 57888
+    },
+    "summary": ""
+  },
+  {
+    "title": "Social and Community Service Managers",
+    "soc": "B038",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 62592,
+      "high": 93888
+    },
+    "summary": ""
+  },
+  {
+    "title": "Social and Human Service Assistants",
+    "soc": "B125",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36096,
+      "high": 54144
+    },
+    "summary": ""
+  },
+  {
+    "title": "Social Workers",
+    "soc": "B121",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49064,
+      "high": 73596
+    },
+    "summary": ""
+  },
+  {
+    "title": "Sociologists",
+    "soc": "B106",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 81352,
+      "high": 122028
+    },
+    "summary": ""
+  },
+  {
+    "title": "Software Developers, Quality Assurance Analysts, and Testers",
+    "soc": "B057",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 105160,
+      "high": 157740
+    },
+    "summary": ""
+  },
+  {
+    "title": "Solar Photovoltaic Installers",
+    "soc": "B234",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 41488,
+      "high": 62232
+    },
+    "summary": ""
+  },
+  {
+    "title": "Special Education Teachers",
+    "soc": "B135",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 51416,
+      "high": 77124
+    },
+    "summary": ""
+  },
+  {
+    "title": "Special Effects Artists and Animators",
+    "soc": "B144",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 79840,
+      "high": 119760
+    },
+    "summary": ""
+  },
+  {
+    "title": "Speech-Language Pathologists",
+    "soc": "B182",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 76328,
+      "high": 114492
+    },
+    "summary": ""
+  },
+  {
+    "title": "Stationary Engineers and Boiler Operators",
+    "soc": "B303",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 60152,
+      "high": 90228
+    },
+    "summary": ""
+  },
+  {
+    "title": "Substance Abuse, Behavioral Disorder, and Mental Health Counselors",
+    "soc": "B116",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 47352,
+      "high": 71028
+    },
+    "summary": ""
+  },
+  {
+    "title": "Surgical Assistants and Technologists",
+    "soc": "B193",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 49984,
+      "high": 74976
+    },
+    "summary": ""
+  },
+  {
+    "title": "Surveying and Mapping Technicians",
+    "soc": "B089",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 41552,
+      "high": 62328
+    },
+    "summary": ""
+  },
+  {
+    "title": "Surveyors",
+    "soc": "B069",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 58192,
+      "high": 87288
+    },
+    "summary": ""
+  },
+  {
+    "title": "Survey Researchers",
+    "soc": "B104",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 50704,
+      "high": 76056
+    },
+    "summary": ""
+  },
+  {
+    "title": "Tax Examiners and Collectors, and Revenue Agents",
+    "soc": "B055",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 47792,
+      "high": 71688
+    },
+    "summary": ""
+  },
+  {
+    "title": "Taxi Drivers, Shuttle Drivers, and Chauffeurs",
+    "soc": "B316",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 29328,
+      "high": 43992
+    },
+    "summary": ""
+  },
+  {
+    "title": "Teacher Assistants",
+    "soc": "B142",
+    "traits": [
+      "t07",
+      "t19",
+      "t49"
+    ],
+    "salary": {
+      "low": 28192,
+      "high": 42288
+    },
+    "summary": ""
+  },
+  {
+    "title": "Technical Writers",
+    "soc": "B163",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 73336,
+      "high": 110004
+    },
+    "summary": ""
+  },
+  {
+    "title": "Telecommunications Technicians",
+    "soc": "B279",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 51448,
+      "high": 77172
+    },
+    "summary": ""
+  },
+  {
+    "title": "Tellers",
+    "soc": "B248",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 31472,
+      "high": 47208
+    },
+    "summary": ""
+  },
+  {
+    "title": "test",
+    "soc": "B047",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 65344,
+      "high": 98016
+    },
+    "summary": ""
+  },
+  {
+    "title": "Top Executives",
+    "soc": "B039",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 84280,
+      "high": 126420
+    },
+    "summary": ""
+  },
+  {
+    "title": "Tour and Travel Guides",
+    "soc": "B411",
+    "traits": [
+      "t02",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 29328,
+      "high": 43992
+    },
+    "summary": ""
+  },
+  {
+    "title": "Training and Development Managers",
+    "soc": "B024",
+    "traits": [
+      "t06",
+      "t08",
+      "t09",
+      "t17",
+      "t18",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 101672,
+      "high": 152508
+    },
+    "summary": ""
+  },
+  {
+    "title": "Training and Development Specialists",
+    "soc": "B091",
+    "traits": [
+      "t09",
+      "t17",
+      "t18"
+    ],
+    "salary": {
+      "low": 52680,
+      "high": 79020
+    },
+    "summary": ""
+  },
+  {
+    "title": "Transportation, Storage, and Distribution Managers",
+    "soc": "B404",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 81608,
+      "high": 122412
+    },
+    "summary": ""
+  },
+  {
+    "title": "Travel Agents",
+    "soc": "B012",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 38760,
+      "high": 58140
+    },
+    "summary": ""
+  },
+  {
+    "title": "Tutors",
+    "soc": "B403",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 32072,
+      "high": 48108
+    },
+    "summary": ""
+  },
+  {
+    "title": "Umpires, Referees, and Other Sports Officials",
+    "soc": "B155",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 31056,
+      "high": 46584
+    },
+    "summary": ""
+  },
+  {
+    "title": "Urban and Regional Planners",
+    "soc": "B107",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 66976,
+      "high": 100464
+    },
+    "summary": ""
+  },
+  {
+    "title": "Veterinarians",
+    "soc": "B183",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 100408,
+      "high": 150612
+    },
+    "summary": ""
+  },
+  {
+    "title": "Veterinary Assistants and Laboratory Animal Caretakers",
+    "soc": "B210",
+    "traits": [
+      "t03",
+      "t16",
+      "t47"
+    ],
+    "salary": {
+      "low": 29856,
+      "high": 44784
+    },
+    "summary": ""
+  },
+  {
+    "title": "Veterinary Technologists and Technicians",
+    "soc": "B194",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 36784,
+      "high": 55176
+    },
+    "summary": ""
+  },
+  {
+    "title": "Waiters and Waitresses",
+    "soc": "B222",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 27008,
+      "high": 40512
+    },
+    "summary": ""
+  },
+  {
+    "title": "Water and Wastewater Treatment Plant and System Operators",
+    "soc": "B304",
+    "traits": [
+      "t06",
+      "t08",
+      "t24",
+      "t39"
+    ],
+    "salary": {
+      "low": 46608,
+      "high": 69912
+    },
+    "summary": ""
+  },
+  {
+    "title": "Water Transportation Workers",
+    "soc": "B320",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 53192,
+      "high": 79788
+    },
+    "summary": ""
+  },
+  {
+    "title": "Web Developers and Digital Designers",
+    "soc": "B092",
+    "traits": [
+      "t02",
+      "t09",
+      "t17",
+      "t18",
+      "t23",
+      "t33"
+    ],
+    "salary": {
+      "low": 76304,
+      "high": 114456
+    },
+    "summary": ""
+  },
+  {
+    "title": "Welders, Cutters, Solderers, and Brazers",
+    "soc": "B298",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 40800,
+      "high": 61200
+    },
+    "summary": ""
+  },
+  {
+    "title": "Wholesale and Manufacturing Sales Representatives",
+    "soc": "B242",
+    "traits": [
+      "t14",
+      "t22",
+      "t25",
+      "t33",
+      "t38",
+      "t40",
+      "t43"
+    ],
+    "salary": {
+      "low": 59280,
+      "high": 88920
+    },
+    "summary": ""
+  },
+  {
+    "title": "Wind Turbine Technicians",
+    "soc": "B255",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 50064,
+      "high": 75096
+    },
+    "summary": ""
+  },
+  {
+    "title": "Woodworkers",
+    "soc": "B300",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 34976,
+      "high": 52464
+    },
+    "summary": ""
+  },
+  {
+    "title": "Writers and Authors",
+    "soc": "B164",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 57816,
+      "high": 86724
+    },
+    "summary": ""
+  },
+  {
+    "title": "Zoologists and Wildlife Biologists",
+    "soc": "B095",
+    "traits": [
+      "t09",
+      "t22",
+      "t33"
+    ],
+    "salary": {
+      "low": 58288,
+      "high": 87432
+    },
+    "summary": ""
+  }
+]

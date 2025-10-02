@@ -1,0 +1,252 @@
+[
+  {
+    "id": "t01",
+    "name": "Analytical",
+    "desc": "You enjoy breaking problems into parts and finding patterns."
+  },
+  {
+    "id": "t02",
+    "name": "Creative",
+    "desc": "You generate original ideas and novel approaches."
+  },
+  {
+    "id": "t03",
+    "name": "Empathetic",
+    "desc": "You sense and care about others’ feelings."
+  },
+  {
+    "id": "t04",
+    "name": "Detail-Oriented",
+    "desc": "You notice fine details and maintain accuracy."
+  },
+  {
+    "id": "t05",
+    "name": "Big-Picture",
+    "desc": "You connect dots and see systems and outcomes."
+  },
+  {
+    "id": "t06",
+    "name": "Leader",
+    "desc": "You take initiative and guide teams to outcomes."
+  },
+  {
+    "id": "t07",
+    "name": "Communicator",
+    "desc": "You express ideas clearly in speech and writing."
+  },
+  {
+    "id": "t08",
+    "name": "Organizer",
+    "desc": "You structure work, time, and resources effectively."
+  },
+  {
+    "id": "t09",
+    "name": "Problem Solver",
+    "desc": "You love figuring out how to fix or improve things."
+  },
+  {
+    "id": "t10",
+    "name": "Curious",
+    "desc": "You ask questions and pursue knowledge deeply."
+  },
+  {
+    "id": "t11",
+    "name": "Resilient",
+    "desc": "You persist through setbacks and learn from them."
+  },
+  {
+    "id": "t12",
+    "name": "Numerate",
+    "desc": "You are comfortable with numbers and data."
+  },
+  {
+    "id": "t13",
+    "name": "Empirical",
+    "desc": "You test ideas and rely on evidence."
+  },
+  {
+    "id": "t14",
+    "name": "Hands-On",
+    "desc": "You like building and working with physical things."
+  },
+  {
+    "id": "t15",
+    "name": "Artistic",
+    "desc": "You enjoy visual, musical, or performing arts."
+  },
+  {
+    "id": "t16",
+    "name": "Service-Oriented",
+    "desc": "You feel fulfilled by helping others."
+  },
+  {
+    "id": "t17",
+    "name": "Technical",
+    "desc": "You understand how technology works and how to apply it."
+  },
+  {
+    "id": "t18",
+    "name": "Coding",
+    "desc": "You can write or debug software."
+  },
+  {
+    "id": "t19",
+    "name": "Teaching",
+    "desc": "You like explaining and guiding learning."
+  },
+  {
+    "id": "t20",
+    "name": "Research",
+    "desc": "You enjoy investigating questions deeply."
+  },
+  {
+    "id": "t21",
+    "name": "Risk-Aware",
+    "desc": "You assess risks and plan mitigations."
+  },
+  {
+    "id": "t22",
+    "name": "Quality-Driven",
+    "desc": "You set high standards and measure results."
+  },
+  {
+    "id": "t23",
+    "name": "Design-Thinking",
+    "desc": "You iterate solutions with user needs in mind."
+  },
+  {
+    "id": "t24",
+    "name": "Strategic",
+    "desc": "You plan long-term and align actions to goals."
+  },
+  {
+    "id": "t25",
+    "name": "Persuasive",
+    "desc": "You can influence decisions and gain buy-in."
+  },
+  {
+    "id": "t26",
+    "name": "Ethical",
+    "desc": "You care about doing what’s right."
+  },
+  {
+    "id": "t27",
+    "name": "Independent",
+    "desc": "You work well with autonomy and minimal direction."
+  },
+  {
+    "id": "t28",
+    "name": "Collaborative",
+    "desc": "You enjoy working in teams and cross-functions."
+  },
+  {
+    "id": "t29",
+    "name": "Adaptable",
+    "desc": "You adjust quickly to changing priorities."
+  },
+  {
+    "id": "t30",
+    "name": "Patient",
+    "desc": "You can wait and work steadily toward outcomes."
+  },
+  {
+    "id": "t31",
+    "name": "Energetic",
+    "desc": "You bring enthusiasm and momentum."
+  },
+  {
+    "id": "t32",
+    "name": "Meticulous",
+    "desc": "You check, verify, and validate carefully."
+  },
+  {
+    "id": "t33",
+    "name": "Customer-Focused",
+    "desc": "You design with user needs in mind."
+  },
+  {
+    "id": "t34",
+    "name": "Leadership-Development",
+    "desc": "You build others up to lead."
+  },
+  {
+    "id": "t35",
+    "name": "Data Visualization",
+    "desc": "You translate data into clear visuals."
+  },
+  {
+    "id": "t36",
+    "name": "Public Speaking",
+    "desc": "You are confident presenting to groups."
+  },
+  {
+    "id": "t37",
+    "name": "Writing",
+    "desc": "You craft clear, compelling narratives."
+  },
+  {
+    "id": "t38",
+    "name": "Negotiation",
+    "desc": "You find win–win outcomes."
+  },
+  {
+    "id": "t39",
+    "name": "Planning",
+    "desc": "You timeline, sequence, and organize complex work."
+  },
+  {
+    "id": "t40",
+    "name": "Systems Thinking",
+    "desc": "You understand how parts interact within a whole."
+  },
+  {
+    "id": "t41",
+    "name": "Security-Minded",
+    "desc": "You think about protection and safeguards."
+  },
+  {
+    "id": "t42",
+    "name": "Compliance",
+    "desc": "You ensure policies and standards are met."
+  },
+  {
+    "id": "t43",
+    "name": "Mechanical Aptitude",
+    "desc": "You understand machines and tools."
+  },
+  {
+    "id": "t44",
+    "name": "Financial Acumen",
+    "desc": "You grasp budgets, ROI, and tradeoffs."
+  },
+  {
+    "id": "t45",
+    "name": "Entrepreneurial",
+    "desc": "You spot opportunities and build new things."
+  },
+  {
+    "id": "t46",
+    "name": "Compassionate",
+    "desc": "You care deeply about people’s well-being."
+  },
+  {
+    "id": "t47",
+    "name": "Attention to Safety",
+    "desc": "You prioritize safe practices and environments."
+  },
+  {
+    "id": "t48",
+    "name": "Multilingual",
+    "desc": "You can operate across languages/cultures."
+  },
+  {
+    "id": "t49",
+    "name": "Coaching",
+    "desc": "You mentor others through growth."
+  },
+  {
+    "id": "t50",
+    "name": "Time Management",
+    "desc": "You allocate time effectively to deliver."
+  }
+]
