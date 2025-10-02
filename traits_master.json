@@ -1,0 +1,254 @@
+{
+  "traits": [
+    {
+      "id": 1,
+      "name": "Leadership",
+      "slug": "leadership"
+    },
+    {
+      "id": 2,
+      "name": "Creativity",
+      "slug": "creativity"
+    },
+    {
+      "id": 3,
+      "name": "Analytical Thinking",
+      "slug": "analytical-thinking"
+    },
+    {
+      "id": 4,
+      "name": "Problem Solving",
+      "slug": "problem-solving"
+    },
+    {
+      "id": 5,
+      "name": "Empathy",
+      "slug": "empathy"
+    },
+    {
+      "id": 6,
+      "name": "Adaptability",
+      "slug": "adaptability"
+    },
+    {
+      "id": 7,
+      "name": "Communication",
+      "slug": "communication"
+    },
+    {
+      "id": 8,
+      "name": "Collaboration",
+      "slug": "collaboration"
+    },
+    {
+      "id": 9,
+      "name": "Initiative",
+      "slug": "initiative"
+    },
+    {
+      "id": 10,
+      "name": "Discipline",
+      "slug": "discipline"
+    },
+    {
+      "id": 11,
+      "name": "Integrity",
+      "slug": "integrity"
+    },
+    {
+      "id": 12,
+      "name": "Vision",
+      "slug": "vision"
+    },
+    {
+      "id": 13,
+      "name": "Resilience",
+      "slug": "resilience"
+    },
+    {
+      "id": 14,
+      "name": "Curiosity",
+      "slug": "curiosity"
+    },
+    {
+      "id": 15,
+      "name": "Strategic Thinking",
+      "slug": "strategic-thinking"
+    },
+    {
+      "id": 16,
+      "name": "Detail Orientation",
+      "slug": "detail-orientation"
+    },
+    {
+      "id": 17,
+      "name": "Time Management",
+      "slug": "time-management"
+    },
+    {
+      "id": 18,
+      "name": "Coaching",
+      "slug": "coaching"
+    },
+    {
+      "id": 19,
+      "name": "Decision Making",
+      "slug": "decision-making"
+    },
+    {
+      "id": 20,
+      "name": "Innovation",
+      "slug": "innovation"
+    },
+    {
+      "id": 21,
+      "name": "Accountability",
+      "slug": "accountability"
+    },
+    {
+      "id": 22,
+      "name": "Customer Focus",
+      "slug": "customer-focus"
+    },
+    {
+      "id": 23,
+      "name": "Learning Agility",
+      "slug": "learning-agility"
+    },
+    {
+      "id": 24,
+      "name": "Emotional Intelligence",
+      "slug": "emotional-intelligence"
+    },
+    {
+      "id": 25,
+      "name": "Negotiation",
+      "slug": "negotiation"
+    },
+    {
+      "id": 26,
+      "name": "Conflict Resolution",
+      "slug": "conflict-resolution"
+    },
+    {
+      "id": 27,
+      "name": "Ownership",
+      "slug": "ownership"
+    },
+    {
+      "id": 28,
+      "name": "Planning",
+      "slug": "planning"
+    },
+    {
+      "id": 29,
+      "name": "Process Improvement",
+      "slug": "process-improvement"
+    },
+    {
+      "id": 30,
+      "name": "Quality Mindset",
+      "slug": "quality-mindset"
+    },
+    {
+      "id": 31,
+      "name": "Risk Management",
+      "slug": "risk-management"
+    },
+    {
+      "id": 32,
+      "name": "Data Literacy",
+      "slug": "data-literacy"
+    },
+    {
+      "id": 33,
+      "name": "Systems Thinking",
+      "slug": "systems-thinking"
+    },
+    {
+      "id": 34,
+      "name": "Entrepreneurship",
+      "slug": "entrepreneurship"
+    },
+    {
+      "id": 35,
+      "name": "Service Orientation",
+      "slug": "service-orientation"
+    },
+    {
+      "id": 36,
+      "name": "Public Speaking",
+      "slug": "public-speaking"
+    },
+    {
+      "id": 37,
+      "name": "Writing",
+      "slug": "writing"
+    },
+    {
+      "id": 38,
+      "name": "Design Sense",
+      "slug": "design-sense"
+    },
+    {
+      "id": 39,
+      "name": "Product Sense",
+      "slug": "product-sense"
+    },
+    {
+      "id": 40,
+      "name": "User Research",
+      "slug": "user-research"
+    },
+    {
+      "id": 41,
+      "name": "Sales Acumen",
+      "slug": "sales-acumen"
+    },
+    {
+      "id": 42,
+      "name": "Financial Acumen",
+      "slug": "financial-acumen"
+    },
+    {
+      "id": 43,
+      "name": "Technical Aptitude",
+      "slug": "technical-aptitude"
+    },
+    {
+      "id": 44,
+      "name": "Cybersecurity Awareness",
+      "slug": "cybersecurity-awareness"
+    },
+    {
+      "id": 45,
+      "name": "Project Management",
+      "slug": "project-management"
+    },
+    {
+      "id": 46,
+      "name": "Change Management",
+      "slug": "change-management"
+    },
+    {
+      "id": 47,
+      "name": "Mentorship",
+      "slug": "mentorship"
+    },
+    {
+      "id": 48,
+      "name": "Networking",
+      "slug": "networking"
+    },
+    {
+      "id": 49,
+      "name": "Cultural Awareness",
+      "slug": "cultural-awareness"
+    },
+    {
+      "id": 50,
+      "name": "Ethics",
+      "slug": "ethics"
+    }
+  ]
+}
