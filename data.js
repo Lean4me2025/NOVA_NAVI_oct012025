@@ -340,3 +340,10 @@ window.NOVA_DATA = {
     }
   }
 };
+
+
+window.NOVA_FACTS = [
+  "Fact: 89% of people feel more confident pursuing roles after clarifying their strengths.",
+  "Nova starts with categories → then traits → then real job matches.",
+  "Your reflection helps tailor the plan you choose next."
+];

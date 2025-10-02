@@ -49,7 +49,7 @@ function renderCategories(){
         <div class="kicker">Step 1</div>
         <h2>Choose 1–2 Career Categories</h2>
       </div>
-      <button class="btn ghost right" id="backHome">← Home</button></div>
+      <button class="btn ghost right" id="backHome" class="btn secondary">← Home</button></div>
       <p class="muted small">These define which traits you'll see next.</p>
       <div class="grid cols-3" id="catGrid"></div>
       <div class="divider"></div>
@@ -105,7 +105,7 @@ function renderTraits(){
       <div class="header" style="gap:8px;flex-wrap:wrap">
         <div><button id="clearTraits" class="btn subtle">Clear selections</button></div>
         <div style="display:flex;gap:8px">
-          <button id="toCats" class="btn ghost">← Back</button>
+          <button id="toCats" class="btn secondary">← Back</button>
           <button id="toResults" class="btn secondary">See My Results</button>
         </div>
       </div>
@@ -189,7 +189,7 @@ function renderResults(){
           <h2>${cat} • Top Matches</h2>
         </div>
         <div style="display:flex;gap:8px">
-          <button id="toTraits" class="btn ghost">← Edit Traits</button>
+          <button id="toTraits" class="btn secondary">← Edit Traits</button>
           <button id="saveDraft" class="btn subtle">Save Draft</button>
         </div>
       </div>
@@ -334,52 +334,79 @@ function renderResults(){
   }
 }
 
+
 function renderPlans(){
-  const isUnlocked = unlocked()
   document.body.innerHTML = `
   <main class="container">
     <section class="card">
       <div class="header">
         <div><div class="kicker">Step 4</div><h2>Your NOVA Plan</h2></div>
-        <button id="toResults" class="btn ghost">← Back</button>
+        <button id="toResults" class="btn secondary">← Back</button>
       </div>
-      <p class="muted small">Reflection saved locally${state.reflection?': ' + state.reflection:''}</p>
-      <div class="grid cols-3">
+      <p class="small">Reflection saved locally${state.reflection?': ' + state.reflection:''}</p>
+
+      <div class="grid cols-4">
         <div class="card">
-          <h3>Starter</h3>
+          <h3>Starter <span class="muted small">— $29.99/mo</span></h3>
           <ul class="small">
             <li>PDF Snapshot</li>
             <li>Resume Builder (basic)</li>
             <li>Job Suggestions</li>
           </ul>
-          <a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Now</a>
+          <a href="https://payhip.com/b/GdfU7" class="payhip-buy-button" data-theme="green" data-product="GdfU7">Buy Now</a>
         </div>
         <div class="card">
-          <h3>Pro</h3>
+          <h3>Pro <span class="muted small">— $99/mo</span></h3>
           <ul class="small">
             <li>Everything in Starter</li>
             <li>Resume Rewrite AI</li>
             <li>Unlimited Cover Letters</li>
             <li>Company Intel Reports</li>
           </ul>
-          <div id="proArea"></div>
+          <a href="https://payhip.com/b/knC1Z" class="payhip-buy-button" data-theme="green" data-product="knC1Z">Buy Now</a>
         </div>
         <div class="card">
-          <h3>Purpose Book</h3>
+          <h3>Mastery <span class="muted small">— $149/mo</span></h3>
+          <ul class="small">
+            <li>Everything in Pro</li>
+            <li>1:1 Coaching & Premium Support</li>
+            <li>Career Roadmap PDF</li>
+            <li>Quarterly Masterclass Invite</li>
+          </ul>
+          <a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Now</a>
+        </div>
+        <div class="card">
+          <h3>Purpose Book <span class="muted small">— $14.99</span></h3>
           <p class="small">How to Know Your Purpose</p>
           <a href="https://payhip.com/b/N7Lvg" class="payhip-buy-button" data-theme="green" data-product="N7Lvg">Buy Now</a>
         </div>
       </div>
-      <footer>Pro unlocked on this device: <strong>${isUnlocked?'Yes':'No'}</strong>.</footer>
+
+      <div class="divider"></div>
+
+      <h3>Sign in and create a PIN to protect your data</h3>
+      <p class="muted small">Your PIN secures your results so you can come back and find them later.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center">
+        <input id="emailInput" type="email" placeholder="Email address" style="min-width:260px">
+        <input id="pinInput" type="password" placeholder="Create PIN" style="min-width:200px">
+        <button id="lockBtn" class="btn primary">Confirm & Lock Plan</button>
+      </div>
     </section>
   </main>`
 
-  if(isUnlocked){
-    document.getElementById('proArea').innerHTML = `<button class="btn secondary" id="enterPro">Enter Pro Tools</button>`
-  } else {
-    document.getElementById('proArea').innerHTML = `<a href="https://payhip.com/b/re4Hy" class="payhip-buy-button" data-theme="green" data-product="re4Hy">Buy Pro</a>`
-  }
   document.getElementById('toResults').onclick = ()=>go('results')
+
+  document.getElementById('lockBtn').onclick = ()=>{
+    const email = document.getElementById('emailInput').value.trim()
+    const pin = document.getElementById('pinInput').value.trim()
+    if(!email){ return alert('Please enter your email.') }
+    if(!pin){ return alert('Please create a PIN.') }
+    localStorage.setItem('NOVA_UNLOCK','1')
+    localStorage.setItem('NOVA_EMAIL', email)
+    localStorage.setItem('NOVA_PLAN', 'selected_via_payhip')
+    alert('Plan locked on this device.')
+  }
 }
+
 
 init()

@@ -10,18 +10,32 @@
 <body>
   <main class="container">
     <section class="card center">
-      <h1>Welcome to <span class="brand">NOVA</span></h1>
-      <p class="lead">I'll help you discover your strengths and match you to real roles — step by step.</p>
-      <div class="bypass">
-        <label for="pin">Family/Bypass PIN (optional)</label>
-        <input id="pin" type="password" placeholder="Enter PIN to unlock Pro">
-        <button id="pinBtn" class="btn subtle">Unlock</button>
-        <small class="muted">Using a PIN unlocks Pro without checkout on this device.</small>
+      <h1 style="font-size:2.6rem;font-weight:800;letter-spacing:.01em">WELCOME TO <span class="brand">NOVA</span></h1>
+      <p class="lead">I’ll help you discover your strengths and match you to real roles — step by step.</p>
+
+      <div id="facts" class="list" style="justify-content:center"></div>
+
+      <div style="margin-top:18px">
+        <button id="startBtn" class="btn primary">Start → Choose My Categories</button>
       </div>
-      <button id="startBtn" class="btn primary">Start → Choose My Categories</button>
     </section>
   </main>
   <script src="data.js"></script>
   <script src="script.js"></script>
+  <script>
+    // render facts from data.js
+    (function(){
+      try{
+        var facts = window.NOVA_FACTS || [];
+        var box = document.getElementById('facts');
+        facts.forEach(function(t){
+          var d = document.createElement('div');
+          d.className = 'badge';
+          d.textContent = t;
+          box.appendChild(d);
+        });
+      }catch(e){}
+    })();
+  </script>
 </body>
 </html>
